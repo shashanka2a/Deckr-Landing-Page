@@ -2,36 +2,61 @@ export function Features() {
   const features = [
     {
       icon: (
-        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v6a2 2 0 002 2h4a2 2 0 002-2V5z"/>
-        </svg>
+        <div className="relative">
+          <div className="w-12 h-8 bg-gradient-to-br from-teal-100 to-teal-200 rounded-lg relative overflow-hidden">
+            <div className="absolute top-1 left-1 w-3 h-2 bg-teal-400 rounded opacity-80"></div>
+            <div className="absolute top-1 right-1 w-2 h-2 bg-teal-300 rounded opacity-60"></div>
+            <div className="absolute bottom-1 left-1 w-4 h-1 bg-teal-500 rounded opacity-70"></div>
+          </div>
+          <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-yellow-300 rounded-full flex items-center justify-center text-xs">✋</div>
+        </div>
       ),
       title: "Drag & Drop Editor",
       description: "Create stunning presentations with simple drag & drop."
     },
     {
       icon: (
-        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
-        </svg>
+        <div className="relative">
+          <div className="flex -space-x-2">
+            <div className="w-6 h-6 bg-gradient-to-br from-blue-300 to-blue-400 rounded-full border-2 border-white flex items-center justify-center text-xs">👤</div>
+            <div className="w-6 h-6 bg-gradient-to-br from-green-300 to-green-400 rounded-full border-2 border-white flex items-center justify-center text-xs">👤</div>
+            <div className="w-6 h-6 bg-gradient-to-br from-purple-300 to-purple-400 rounded-full border-2 border-white flex items-center justify-center text-xs">👤</div>
+          </div>
+          <div className="absolute -top-1 -right-1 w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
+          <div className="absolute -bottom-2 left-2 text-xs opacity-70">💬</div>
+        </div>
       ),
       title: "Real-time Collaboration",
       description: "Work together instantly with your team."
     },
     {
       icon: (
-        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
-        </svg>
+        <div className="relative">
+          <div className="grid grid-cols-2 gap-1 w-8 h-8">
+            <div className="bg-gradient-to-br from-pink-200 to-pink-300 rounded aspect-square flex items-center justify-center text-xs">📊</div>
+            <div className="bg-gradient-to-br from-orange-200 to-orange-300 rounded aspect-square flex items-center justify-center text-xs">🎨</div>
+            <div className="bg-gradient-to-br from-violet-200 to-violet-300 rounded aspect-square flex items-center justify-center text-xs">📈</div>
+            <div className="bg-gradient-to-br from-cyan-200 to-cyan-300 rounded aspect-square flex items-center justify-center text-xs">✨</div>
+          </div>
+          <div className="absolute -top-1 -right-1 w-3 h-3 bg-yellow-400 rounded-full flex items-center justify-center text-xs">⚡</div>
+        </div>
       ),
       title: "Smart Templates",
       description: "Start fast with beautiful, professional templates."
     },
     {
       icon: (
-        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z"/>
-        </svg>
+        <div className="relative">
+          <div className="w-8 h-6 bg-gradient-to-r from-teal-100 to-teal-200 rounded-lg flex items-center justify-center relative">
+            <div className="w-4 h-3 bg-white rounded border border-teal-300 flex items-center justify-center text-xs">📄</div>
+          </div>
+          <div className="absolute -top-1 -right-2 flex items-center space-x-1">
+            <div className="w-1 h-1 bg-teal-400 rounded-full animate-bounce"></div>
+            <div className="w-1 h-1 bg-teal-400 rounded-full animate-bounce" style={{animationDelay: '0.1s'}}></div>
+            <div className="w-1 h-1 bg-teal-400 rounded-full animate-bounce" style={{animationDelay: '0.2s'}}></div>
+          </div>
+          <div className="absolute -bottom-1 -right-1 text-sm">🔗</div>
+        </div>
       ),
       title: "Easy Sharing",
       description: "Share your presentations with a simple link."

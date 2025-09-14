@@ -33419,22 +33419,49 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 function Features() {
     const features = [
         {
-            icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                className: "w-8 h-8",
-                fill: "none",
-                stroke: "currentColor",
-                viewBox: "0 0 24 24",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                    strokeLinecap: "round",
-                    strokeLinejoin: "round",
-                    strokeWidth: "2",
-                    d: "M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v6a2 2 0 002 2h4a2 2 0 002-2V5z"
-                }, void 0, false, {
-                    fileName: "src/components/Features.tsx",
-                    lineNumber: 6,
-                    columnNumber: 11
-                }, this)
-            }, void 0, false, {
+            icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "relative",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "w-12 h-8 bg-gradient-to-br from-teal-100 to-teal-200 rounded-lg relative overflow-hidden",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "absolute top-1 left-1 w-3 h-2 bg-teal-400 rounded opacity-80"
+                            }, void 0, false, {
+                                fileName: "src/components/Features.tsx",
+                                lineNumber: 7,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "absolute top-1 right-1 w-2 h-2 bg-teal-300 rounded opacity-60"
+                            }, void 0, false, {
+                                fileName: "src/components/Features.tsx",
+                                lineNumber: 8,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "absolute bottom-1 left-1 w-4 h-1 bg-teal-500 rounded opacity-70"
+                            }, void 0, false, {
+                                fileName: "src/components/Features.tsx",
+                                lineNumber: 9,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Features.tsx",
+                        lineNumber: 6,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "absolute -bottom-1 -right-1 w-4 h-4 bg-yellow-300 rounded-full flex items-center justify-center text-xs",
+                        children: "\u270B"
+                    }, void 0, false, {
+                        fileName: "src/components/Features.tsx",
+                        lineNumber: 11,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/Features.tsx",
                 lineNumber: 5,
                 columnNumber: 9
@@ -33443,72 +33470,195 @@ function Features() {
             description: "Create stunning presentations with simple drag & drop."
         },
         {
-            icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                className: "w-8 h-8",
-                fill: "none",
-                stroke: "currentColor",
-                viewBox: "0 0 24 24",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                    strokeLinecap: "round",
-                    strokeLinejoin: "round",
-                    strokeWidth: "2",
-                    d: "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
-                }, void 0, false, {
-                    fileName: "src/components/Features.tsx",
-                    lineNumber: 15,
-                    columnNumber: 11
-                }, this)
-            }, void 0, false, {
+            icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "relative",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "flex -space-x-2",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "w-6 h-6 bg-gradient-to-br from-blue-300 to-blue-400 rounded-full border-2 border-white flex items-center justify-center text-xs",
+                                children: "\uD83D\uDC64"
+                            }, void 0, false, {
+                                fileName: "src/components/Features.tsx",
+                                lineNumber: 21,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "w-6 h-6 bg-gradient-to-br from-green-300 to-green-400 rounded-full border-2 border-white flex items-center justify-center text-xs",
+                                children: "\uD83D\uDC64"
+                            }, void 0, false, {
+                                fileName: "src/components/Features.tsx",
+                                lineNumber: 22,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "w-6 h-6 bg-gradient-to-br from-purple-300 to-purple-400 rounded-full border-2 border-white flex items-center justify-center text-xs",
+                                children: "\uD83D\uDC64"
+                            }, void 0, false, {
+                                fileName: "src/components/Features.tsx",
+                                lineNumber: 23,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Features.tsx",
+                        lineNumber: 20,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "absolute -top-1 -right-1 w-3 h-3 bg-green-400 rounded-full animate-pulse"
+                    }, void 0, false, {
+                        fileName: "src/components/Features.tsx",
+                        lineNumber: 25,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "absolute -bottom-2 left-2 text-xs opacity-70",
+                        children: "\uD83D\uDCAC"
+                    }, void 0, false, {
+                        fileName: "src/components/Features.tsx",
+                        lineNumber: 26,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/Features.tsx",
-                lineNumber: 14,
+                lineNumber: 19,
                 columnNumber: 9
             }, this),
             title: "Real-time Collaboration",
             description: "Work together instantly with your team."
         },
         {
-            icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                className: "w-8 h-8",
-                fill: "none",
-                stroke: "currentColor",
-                viewBox: "0 0 24 24",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                    strokeLinecap: "round",
-                    strokeLinejoin: "round",
-                    strokeWidth: "2",
-                    d: "M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-                }, void 0, false, {
-                    fileName: "src/components/Features.tsx",
-                    lineNumber: 24,
-                    columnNumber: 11
-                }, this)
-            }, void 0, false, {
+            icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "relative",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "grid grid-cols-2 gap-1 w-8 h-8",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "bg-gradient-to-br from-pink-200 to-pink-300 rounded aspect-square flex items-center justify-center text-xs",
+                                children: "\uD83D\uDCCA"
+                            }, void 0, false, {
+                                fileName: "src/components/Features.tsx",
+                                lineNumber: 36,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "bg-gradient-to-br from-orange-200 to-orange-300 rounded aspect-square flex items-center justify-center text-xs",
+                                children: "\uD83C\uDFA8"
+                            }, void 0, false, {
+                                fileName: "src/components/Features.tsx",
+                                lineNumber: 37,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "bg-gradient-to-br from-violet-200 to-violet-300 rounded aspect-square flex items-center justify-center text-xs",
+                                children: "\uD83D\uDCC8"
+                            }, void 0, false, {
+                                fileName: "src/components/Features.tsx",
+                                lineNumber: 38,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "bg-gradient-to-br from-cyan-200 to-cyan-300 rounded aspect-square flex items-center justify-center text-xs",
+                                children: "\u2728"
+                            }, void 0, false, {
+                                fileName: "src/components/Features.tsx",
+                                lineNumber: 39,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Features.tsx",
+                        lineNumber: 35,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "absolute -top-1 -right-1 w-3 h-3 bg-yellow-400 rounded-full flex items-center justify-center text-xs",
+                        children: "\u26A1"
+                    }, void 0, false, {
+                        fileName: "src/components/Features.tsx",
+                        lineNumber: 41,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/Features.tsx",
-                lineNumber: 23,
+                lineNumber: 34,
                 columnNumber: 9
             }, this),
             title: "Smart Templates",
             description: "Start fast with beautiful, professional templates."
         },
         {
-            icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                className: "w-8 h-8",
-                fill: "none",
-                stroke: "currentColor",
-                viewBox: "0 0 24 24",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                    strokeLinecap: "round",
-                    strokeLinejoin: "round",
-                    strokeWidth: "2",
-                    d: "M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z"
-                }, void 0, false, {
-                    fileName: "src/components/Features.tsx",
-                    lineNumber: 33,
-                    columnNumber: 11
-                }, this)
-            }, void 0, false, {
+            icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "relative",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "w-8 h-6 bg-gradient-to-r from-teal-100 to-teal-200 rounded-lg flex items-center justify-center relative",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "w-4 h-3 bg-white rounded border border-teal-300 flex items-center justify-center text-xs",
+                            children: "\uD83D\uDCC4"
+                        }, void 0, false, {
+                            fileName: "src/components/Features.tsx",
+                            lineNumber: 51,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/Features.tsx",
+                        lineNumber: 50,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "absolute -top-1 -right-2 flex items-center space-x-1",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "w-1 h-1 bg-teal-400 rounded-full animate-bounce"
+                            }, void 0, false, {
+                                fileName: "src/components/Features.tsx",
+                                lineNumber: 54,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "w-1 h-1 bg-teal-400 rounded-full animate-bounce",
+                                style: {
+                                    animationDelay: '0.1s'
+                                }
+                            }, void 0, false, {
+                                fileName: "src/components/Features.tsx",
+                                lineNumber: 55,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "w-1 h-1 bg-teal-400 rounded-full animate-bounce",
+                                style: {
+                                    animationDelay: '0.2s'
+                                }
+                            }, void 0, false, {
+                                fileName: "src/components/Features.tsx",
+                                lineNumber: 56,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Features.tsx",
+                        lineNumber: 53,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "absolute -bottom-1 -right-1 text-sm",
+                        children: "\uD83D\uDD17"
+                    }, void 0, false, {
+                        fileName: "src/components/Features.tsx",
+                        lineNumber: 58,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/Features.tsx",
-                lineNumber: 32,
+                lineNumber: 49,
                 columnNumber: 9
             }, this),
             title: "Easy Sharing",
@@ -33532,13 +33682,13 @@ function Features() {
                                     children: " great presentations"
                                 }, void 0, false, {
                                     fileName: "src/components/Features.tsx",
-                                    lineNumber: 47,
+                                    lineNumber: 72,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/Features.tsx",
-                            lineNumber: 45,
+                            lineNumber: 70,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -33546,13 +33696,13 @@ function Features() {
                             children: "Everything you need to create, collaborate, and share your story."
                         }, void 0, false, {
                             fileName: "src/components/Features.tsx",
-                            lineNumber: 49,
+                            lineNumber: 74,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/Features.tsx",
-                    lineNumber: 44,
+                    lineNumber: 69,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33565,7 +33715,7 @@ function Features() {
                                     children: feature.icon
                                 }, void 0, false, {
                                     fileName: "src/components/Features.tsx",
-                                    lineNumber: 60,
+                                    lineNumber: 85,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
@@ -33573,7 +33723,7 @@ function Features() {
                                     children: feature.title
                                 }, void 0, false, {
                                     fileName: "src/components/Features.tsx",
-                                    lineNumber: 64,
+                                    lineNumber: 89,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -33581,29 +33731,29 @@ function Features() {
                                     children: feature.description
                                 }, void 0, false, {
                                     fileName: "src/components/Features.tsx",
-                                    lineNumber: 68,
+                                    lineNumber: 93,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, index, true, {
                             fileName: "src/components/Features.tsx",
-                            lineNumber: 56,
+                            lineNumber: 81,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "src/components/Features.tsx",
-                    lineNumber: 54,
+                    lineNumber: 79,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/components/Features.tsx",
-            lineNumber: 43,
+            lineNumber: 68,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "src/components/Features.tsx",
-        lineNumber: 42,
+        lineNumber: 67,
         columnNumber: 5
     }, this);
 }
@@ -33634,22 +33784,77 @@ function HowItWorks() {
             number: "01",
             title: "Choose Template",
             description: "Start with a professional template or create from scratch.",
-            icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                className: "w-12 h-12 text-teal-600",
-                fill: "none",
-                stroke: "currentColor",
-                viewBox: "0 0 24 24",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                    strokeLinecap: "round",
-                    strokeLinejoin: "round",
-                    strokeWidth: "2",
-                    d: "M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-                }, void 0, false, {
-                    fileName: "src/components/HowItWorks.tsx",
-                    lineNumber: 9,
-                    columnNumber: 11
-                }, this)
-            }, void 0, false, {
+            icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "relative",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "w-12 h-9 bg-gradient-to-br from-teal-100 to-teal-200 rounded-xl overflow-hidden relative",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "grid grid-cols-3 gap-1 p-2",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "bg-gradient-to-br from-pink-300 to-pink-400 rounded h-3"
+                                }, void 0, false, {
+                                    fileName: "src/components/HowItWorks.tsx",
+                                    lineNumber: 11,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "bg-gradient-to-br from-blue-300 to-blue-400 rounded h-3"
+                                }, void 0, false, {
+                                    fileName: "src/components/HowItWorks.tsx",
+                                    lineNumber: 12,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "bg-gradient-to-br from-green-300 to-green-400 rounded h-3"
+                                }, void 0, false, {
+                                    fileName: "src/components/HowItWorks.tsx",
+                                    lineNumber: 13,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "bg-gradient-to-br from-yellow-300 to-yellow-400 rounded h-3"
+                                }, void 0, false, {
+                                    fileName: "src/components/HowItWorks.tsx",
+                                    lineNumber: 14,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "bg-gradient-to-br from-purple-300 to-purple-400 rounded h-3"
+                                }, void 0, false, {
+                                    fileName: "src/components/HowItWorks.tsx",
+                                    lineNumber: 15,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "bg-gradient-to-br from-orange-300 to-orange-400 rounded h-3"
+                                }, void 0, false, {
+                                    fileName: "src/components/HowItWorks.tsx",
+                                    lineNumber: 16,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/HowItWorks.tsx",
+                            lineNumber: 10,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/HowItWorks.tsx",
+                        lineNumber: 9,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "absolute -top-1 -right-1 text-lg",
+                        children: "\uD83C\uDFA8"
+                    }, void 0, false, {
+                        fileName: "src/components/HowItWorks.tsx",
+                        lineNumber: 19,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/HowItWorks.tsx",
                 lineNumber: 8,
                 columnNumber: 9
@@ -33659,24 +33864,68 @@ function HowItWorks() {
             number: "02",
             title: "Design & Collaborate",
             description: "Use our drag-and-drop editor and work with your team in real-time.",
-            icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                className: "w-12 h-12 text-teal-600",
-                fill: "none",
-                stroke: "currentColor",
-                viewBox: "0 0 24 24",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                    strokeLinecap: "round",
-                    strokeLinejoin: "round",
-                    strokeWidth: "2",
-                    d: "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
-                }, void 0, false, {
-                    fileName: "src/components/HowItWorks.tsx",
-                    lineNumber: 19,
-                    columnNumber: 11
-                }, this)
-            }, void 0, false, {
+            icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "relative",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "w-12 h-10 bg-gradient-to-br from-violet-100 to-violet-200 rounded-xl flex items-center justify-center relative",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "absolute top-1 left-1 w-4 h-3 bg-white rounded border border-violet-300 flex items-center justify-center",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "text-xs",
+                                    children: "\uD83D\uDD8A"
+                                }, void 0, false, {
+                                    fileName: "src/components/HowItWorks.tsx",
+                                    lineNumber: 31,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/HowItWorks.tsx",
+                                lineNumber: 30,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "absolute bottom-1 right-1 flex -space-x-1",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "w-3 h-3 bg-blue-400 rounded-full border border-white"
+                                    }, void 0, false, {
+                                        fileName: "src/components/HowItWorks.tsx",
+                                        lineNumber: 34,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "w-3 h-3 bg-green-400 rounded-full border border-white"
+                                    }, void 0, false, {
+                                        fileName: "src/components/HowItWorks.tsx",
+                                        lineNumber: 35,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/HowItWorks.tsx",
+                                lineNumber: 33,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/HowItWorks.tsx",
+                        lineNumber: 29,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "absolute -top-1 -right-1 text-lg animate-pulse",
+                        children: "\uD83D\uDCAC"
+                    }, void 0, false, {
+                        fileName: "src/components/HowItWorks.tsx",
+                        lineNumber: 38,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/HowItWorks.tsx",
-                lineNumber: 18,
+                lineNumber: 28,
                 columnNumber: 9
             }, this)
         },
@@ -33684,24 +33933,62 @@ function HowItWorks() {
             number: "03",
             title: "Share",
             description: "Share your presentation with a simple link and track engagement.",
-            icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                className: "w-12 h-12 text-teal-600",
-                fill: "none",
-                stroke: "currentColor",
-                viewBox: "0 0 24 24",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                    strokeLinecap: "round",
-                    strokeLinejoin: "round",
-                    strokeWidth: "2",
-                    d: "M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z"
-                }, void 0, false, {
-                    fileName: "src/components/HowItWorks.tsx",
-                    lineNumber: 29,
-                    columnNumber: 11
-                }, this)
-            }, void 0, false, {
+            icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "relative",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "w-12 h-8 bg-gradient-to-br from-emerald-100 to-emerald-200 rounded-xl flex items-center justify-center relative",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "w-6 h-4 bg-white rounded border border-emerald-300 flex items-center justify-center text-xs",
+                            children: "\uD83D\uDCC4"
+                        }, void 0, false, {
+                            fileName: "src/components/HowItWorks.tsx",
+                            lineNumber: 49,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/components/HowItWorks.tsx",
+                        lineNumber: 48,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "absolute -top-2 -right-3 flex items-center space-x-1",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "w-2 h-2 bg-emerald-400 rounded-full animate-ping"
+                            }, void 0, false, {
+                                fileName: "src/components/HowItWorks.tsx",
+                                lineNumber: 52,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "w-2 h-2 bg-emerald-400 rounded-full animate-ping",
+                                style: {
+                                    animationDelay: '0.5s'
+                                }
+                            }, void 0, false, {
+                                fileName: "src/components/HowItWorks.tsx",
+                                lineNumber: 53,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/HowItWorks.tsx",
+                        lineNumber: 51,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "absolute -bottom-1 -right-1 text-lg",
+                        children: "\uD83D\uDE80"
+                    }, void 0, false, {
+                        fileName: "src/components/HowItWorks.tsx",
+                        lineNumber: 55,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/HowItWorks.tsx",
-                lineNumber: 28,
+                lineNumber: 47,
                 columnNumber: 9
             }, this)
         }
@@ -33719,7 +34006,7 @@ function HowItWorks() {
                             children: "How it works"
                         }, void 0, false, {
                             fileName: "src/components/HowItWorks.tsx",
-                            lineNumber: 39,
+                            lineNumber: 65,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -33727,13 +34014,13 @@ function HowItWorks() {
                             children: "Three simple steps to create and share your presentation."
                         }, void 0, false, {
                             fileName: "src/components/HowItWorks.tsx",
-                            lineNumber: 42,
+                            lineNumber: 68,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/HowItWorks.tsx",
-                    lineNumber: 38,
+                    lineNumber: 64,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33746,7 +34033,7 @@ function HowItWorks() {
                                     children: step.icon
                                 }, void 0, false, {
                                     fileName: "src/components/HowItWorks.tsx",
-                                    lineNumber: 54,
+                                    lineNumber: 80,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33754,7 +34041,7 @@ function HowItWorks() {
                                     children: step.number
                                 }, void 0, false, {
                                     fileName: "src/components/HowItWorks.tsx",
-                                    lineNumber: 59,
+                                    lineNumber: 85,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
@@ -33762,7 +34049,7 @@ function HowItWorks() {
                                     children: step.title
                                 }, void 0, false, {
                                     fileName: "src/components/HowItWorks.tsx",
-                                    lineNumber: 63,
+                                    lineNumber: 89,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -33770,7 +34057,7 @@ function HowItWorks() {
                                     children: step.description
                                 }, void 0, false, {
                                     fileName: "src/components/HowItWorks.tsx",
-                                    lineNumber: 67,
+                                    lineNumber: 93,
                                     columnNumber: 15
                                 }, this),
                                 index < steps.length - 1 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33787,39 +34074,39 @@ function HowItWorks() {
                                             d: "M9 5l7 7-7 7"
                                         }, void 0, false, {
                                             fileName: "src/components/HowItWorks.tsx",
-                                            lineNumber: 75,
+                                            lineNumber: 101,
                                             columnNumber: 21
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/HowItWorks.tsx",
-                                        lineNumber: 74,
+                                        lineNumber: 100,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "src/components/HowItWorks.tsx",
-                                    lineNumber: 73,
+                                    lineNumber: 99,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, index, true, {
                             fileName: "src/components/HowItWorks.tsx",
-                            lineNumber: 49,
+                            lineNumber: 75,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "src/components/HowItWorks.tsx",
-                    lineNumber: 47,
+                    lineNumber: 73,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/components/HowItWorks.tsx",
-            lineNumber: 37,
+            lineNumber: 63,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "src/components/HowItWorks.tsx",
-        lineNumber: 36,
+        lineNumber: 62,
         columnNumber: 5
     }, this);
 }
