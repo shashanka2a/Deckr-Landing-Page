@@ -33628,29 +33628,82 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "HowItWorks", ()=>HowItWorks);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _imageWithFallback = require("./figma/ImageWithFallback");
 function HowItWorks() {
     const steps = [
         {
             number: "01",
-            title: "Choose Your Template",
-            description: "Start with one of our professionally designed templates or create from scratch. Our smart template library adapts to your content.",
-            image: "https://images.unsplash.com/photo-1593300806914-e1884ba37524?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsJTIwb2ZmaWNlJTIwc2V0dXB8ZW58MXx8fHwxNzU3ODU0MjY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-            highlight: "300+ Templates"
+            title: "Choose Template",
+            description: "Start with a professional template or create from scratch.",
+            icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                className: "w-12 h-12 text-teal-600",
+                fill: "none",
+                stroke: "currentColor",
+                viewBox: "0 0 24 24",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                    strokeLinecap: "round",
+                    strokeLinejoin: "round",
+                    strokeWidth: "2",
+                    d: "M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+                }, void 0, false, {
+                    fileName: "src/components/HowItWorks.tsx",
+                    lineNumber: 9,
+                    columnNumber: 11
+                }, this)
+            }, void 0, false, {
+                fileName: "src/components/HowItWorks.tsx",
+                lineNumber: 8,
+                columnNumber: 9
+            }, this)
         },
         {
             number: "02",
             title: "Design & Collaborate",
-            description: "Use our intuitive drag-and-drop editor to bring your story to life. Invite team members to collaborate in real-time.",
-            image: "https://images.unsplash.com/photo-1700561570982-5f845601c505?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHRlYW0lMjBjb2xsYWJvcmF0aW9ufGVufDF8fHx8MTc1Nzg0OTQxMHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-            highlight: "Real-time Editing"
+            description: "Use our drag-and-drop editor and work with your team in real-time.",
+            icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                className: "w-12 h-12 text-teal-600",
+                fill: "none",
+                stroke: "currentColor",
+                viewBox: "0 0 24 24",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                    strokeLinecap: "round",
+                    strokeLinejoin: "round",
+                    strokeWidth: "2",
+                    d: "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                }, void 0, false, {
+                    fileName: "src/components/HowItWorks.tsx",
+                    lineNumber: 19,
+                    columnNumber: 11
+                }, this)
+            }, void 0, false, {
+                fileName: "src/components/HowItWorks.tsx",
+                lineNumber: 18,
+                columnNumber: 9
+            }, this)
         },
         {
             number: "03",
-            title: "Share & Present",
-            description: "Share your presentation with a simple link or download in multiple formats. Track engagement with detailed analytics.",
-            image: "https://images.unsplash.com/photo-1705909773420-8d7af2a343f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3b3Jrc3BhY2UlMjBkZXNpZ258ZW58MXx8fHwxNzU3ODMxMTQ1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-            highlight: "One-click Sharing"
+            title: "Share",
+            description: "Share your presentation with a simple link and track engagement.",
+            icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                className: "w-12 h-12 text-teal-600",
+                fill: "none",
+                stroke: "currentColor",
+                viewBox: "0 0 24 24",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                    strokeLinecap: "round",
+                    strokeLinejoin: "round",
+                    strokeWidth: "2",
+                    d: "M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z"
+                }, void 0, false, {
+                    fileName: "src/components/HowItWorks.tsx",
+                    lineNumber: 29,
+                    columnNumber: 11
+                }, this)
+            }, void 0, false, {
+                fileName: "src/components/HowItWorks.tsx",
+                lineNumber: 28,
+                columnNumber: 9
+            }, this)
         }
     ];
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -33666,191 +33719,107 @@ function HowItWorks() {
                             children: "How it works"
                         }, void 0, false, {
                             fileName: "src/components/HowItWorks.tsx",
-                            lineNumber: 32,
+                            lineNumber: 39,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                             className: "text-xl text-slate-600 max-w-2xl mx-auto",
-                            children: "Create stunning presentations in three simple steps. No design experience needed."
+                            children: "Three simple steps to create and share your presentation."
                         }, void 0, false, {
                             fileName: "src/components/HowItWorks.tsx",
-                            lineNumber: 35,
+                            lineNumber: 42,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/HowItWorks.tsx",
-                    lineNumber: 31,
+                    lineNumber: 38,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "space-y-24",
+                    className: "grid md:grid-cols-3 gap-8 max-w-5xl mx-auto",
                     children: steps.map((step, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: `grid lg:grid-cols-2 gap-12 items-center ${index % 2 === 1 ? 'lg:flex-row-reverse' : ''}`,
+                            className: "text-center group hover:-translate-y-2 transition-all duration-300",
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: `space-y-6 ${index % 2 === 1 ? 'lg:order-2' : ''}`,
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "flex items-center gap-4",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "w-16 h-16 bg-teal-600 text-white rounded-xl flex items-center justify-center text-xl transition-all duration-300 hover:scale-110",
-                                                    children: step.number
-                                                }, void 0, false, {
-                                                    fileName: "src/components/HowItWorks.tsx",
-                                                    lineNumber: 52,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "inline-flex items-center px-3 py-1 bg-teal-100 text-teal-700 rounded-full text-sm",
-                                                    children: step.highlight
-                                                }, void 0, false, {
-                                                    fileName: "src/components/HowItWorks.tsx",
-                                                    lineNumber: 55,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "src/components/HowItWorks.tsx",
-                                            lineNumber: 51,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            className: "text-3xl text-slate-900",
-                                            children: step.title
-                                        }, void 0, false, {
-                                            fileName: "src/components/HowItWorks.tsx",
-                                            lineNumber: 60,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                            className: "text-lg text-slate-600 leading-relaxed",
-                                            children: step.description
-                                        }, void 0, false, {
-                                            fileName: "src/components/HowItWorks.tsx",
-                                            lineNumber: 64,
-                                            columnNumber: 17
-                                        }, this),
-                                        index < steps.length - 1 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "hidden lg:block mt-12",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "flex items-center",
-                                                children: [
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "w-4 h-4 bg-teal-200 rounded-full"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/HowItWorks.tsx",
-                                                        lineNumber: 72,
-                                                        columnNumber: 23
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                        className: "flex-1 h-px bg-gradient-to-r from-teal-200 to-transparent ml-4"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/HowItWorks.tsx",
-                                                        lineNumber: 73,
-                                                        columnNumber: 23
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "src/components/HowItWorks.tsx",
-                                                lineNumber: 71,
-                                                columnNumber: 21
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "src/components/HowItWorks.tsx",
-                                            lineNumber: 70,
-                                            columnNumber: 19
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
+                                    className: "w-20 h-20 bg-teal-50 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-teal-100 group-hover:scale-110 transition-all duration-300",
+                                    children: step.icon
+                                }, void 0, false, {
                                     fileName: "src/components/HowItWorks.tsx",
-                                    lineNumber: 50,
+                                    lineNumber: 54,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: `relative ${index % 2 === 1 ? 'lg:order-1' : ''}`,
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "relative z-10 group",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "rounded-2xl overflow-hidden shadow-xl group-hover:shadow-2xl transition-all duration-500",
-                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _imageWithFallback.ImageWithFallback), {
-                                                        src: step.image,
-                                                        alt: step.title,
-                                                        className: "w-full h-80 object-cover group-hover:scale-105 transition-transform duration-700"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/HowItWorks.tsx",
-                                                        lineNumber: 83,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "src/components/HowItWorks.tsx",
-                                                    lineNumber: 82,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "absolute -z-10 top-8 left-8 w-full h-full bg-teal-100 rounded-2xl opacity-50"
-                                                }, void 0, false, {
-                                                    fileName: "src/components/HowItWorks.tsx",
-                                                    lineNumber: 91,
-                                                    columnNumber: 19
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "src/components/HowItWorks.tsx",
-                                            lineNumber: 81,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "absolute top-6 right-6 bg-white rounded-full w-12 h-12 flex items-center justify-center shadow-lg",
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "text-teal-600 text-sm",
-                                                children: step.number
-                                            }, void 0, false, {
-                                                fileName: "src/components/HowItWorks.tsx",
-                                                lineNumber: 96,
-                                                columnNumber: 19
-                                            }, this)
+                                    className: "w-8 h-8 bg-teal-600 text-white rounded-full flex items-center justify-center text-sm mx-auto mb-4",
+                                    children: step.number
+                                }, void 0, false, {
+                                    fileName: "src/components/HowItWorks.tsx",
+                                    lineNumber: 59,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                    className: "text-xl text-slate-900 mb-3",
+                                    children: step.title
+                                }, void 0, false, {
+                                    fileName: "src/components/HowItWorks.tsx",
+                                    lineNumber: 63,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "text-slate-600",
+                                    children: step.description
+                                }, void 0, false, {
+                                    fileName: "src/components/HowItWorks.tsx",
+                                    lineNumber: 67,
+                                    columnNumber: 15
+                                }, this),
+                                index < steps.length - 1 && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "hidden md:block absolute top-10 right-0 transform translate-x-1/2",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                        className: "w-6 h-6 text-teal-300",
+                                        fill: "none",
+                                        stroke: "currentColor",
+                                        viewBox: "0 0 24 24",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                            strokeLinecap: "round",
+                                            strokeLinejoin: "round",
+                                            strokeWidth: "2",
+                                            d: "M9 5l7 7-7 7"
                                         }, void 0, false, {
                                             fileName: "src/components/HowItWorks.tsx",
-                                            lineNumber: 95,
-                                            columnNumber: 17
+                                            lineNumber: 75,
+                                            columnNumber: 21
                                         }, this)
-                                    ]
-                                }, void 0, true, {
+                                    }, void 0, false, {
+                                        fileName: "src/components/HowItWorks.tsx",
+                                        lineNumber: 74,
+                                        columnNumber: 19
+                                    }, this)
+                                }, void 0, false, {
                                     fileName: "src/components/HowItWorks.tsx",
-                                    lineNumber: 80,
-                                    columnNumber: 15
+                                    lineNumber: 73,
+                                    columnNumber: 17
                                 }, this)
                             ]
                         }, index, true, {
                             fileName: "src/components/HowItWorks.tsx",
-                            lineNumber: 43,
+                            lineNumber: 49,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "src/components/HowItWorks.tsx",
-                    lineNumber: 41,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "hidden lg:block absolute left-1/2 transform -translate-x-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-teal-200 to-transparent opacity-30"
-                }, void 0, false, {
-                    fileName: "src/components/HowItWorks.tsx",
-                    lineNumber: 104,
+                    lineNumber: 47,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/components/HowItWorks.tsx",
-            lineNumber: 30,
+            lineNumber: 37,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "src/components/HowItWorks.tsx",
-        lineNumber: 29,
+        lineNumber: 36,
         columnNumber: 5
     }, this);
 }
@@ -33863,77 +33832,7 @@ $RefreshReg$(_c, "HowItWorks");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","./figma/ImageWithFallback":"kONEg","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"kONEg":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$db0a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$db0a.init();
-var prevRefreshReg = globalThis.$RefreshReg$;
-var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$db0a.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "ImageWithFallback", ()=>ImageWithFallback);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _s = $RefreshSig$();
-const ERROR_IMG_SRC = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODgiIGhlaWdodD0iODgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBvcGFjaXR5PSIuMyIgZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIzLjciPjxyZWN0IHg9IjE2IiB5PSIxNiIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iNiIvPjxwYXRoIGQ9Im0xNiA1OCAxNi0xOCAzMiAzMiIvPjxjaXJjbGUgY3g9IjUzIiBjeT0iMzUiIHI9IjciLz48L3N2Zz4KCg==';
-function ImageWithFallback(props) {
-    _s();
-    const [didError, setDidError] = (0, _react.useState)(false);
-    const handleError = ()=>{
-        setDidError(true);
-    };
-    const { src, alt, style, className, ...rest } = props;
-    return didError ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: `inline-block bg-gray-100 text-center align-middle ${className ?? ''}`,
-        style: style,
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "flex items-center justify-center w-full h-full",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                src: ERROR_IMG_SRC,
-                alt: "Error loading image",
-                ...rest,
-                "data-original-url": src
-            }, void 0, false, {
-                fileName: "src/components/figma/ImageWithFallback.tsx",
-                lineNumber: 21,
-                columnNumber: 9
-            }, this)
-        }, void 0, false, {
-            fileName: "src/components/figma/ImageWithFallback.tsx",
-            lineNumber: 20,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "src/components/figma/ImageWithFallback.tsx",
-        lineNumber: 16,
-        columnNumber: 5
-    }, this) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-        src: src,
-        alt: alt,
-        className: className,
-        style: style,
-        ...rest,
-        onError: handleError
-    }, void 0, false, {
-        fileName: "src/components/figma/ImageWithFallback.tsx",
-        lineNumber: 25,
-        columnNumber: 5
-    }, this);
-}
-_s(ImageWithFallback, "QMNzFKr35q4hEDRZ59yrU4N+ufk=");
-_c = ImageWithFallback;
-var _c;
-$RefreshReg$(_c, "ImageWithFallback");
-
-  $parcel$ReactRefreshHelpers$db0a.postlude(module);
-} finally {
-  globalThis.$RefreshReg$ = prevRefreshReg;
-  globalThis.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"7zq97":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"7zq97":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$34d7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$34d7.init();
 var prevRefreshReg = globalThis.$RefreshReg$;

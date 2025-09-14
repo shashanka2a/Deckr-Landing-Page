@@ -1,27 +1,34 @@
-import { ImageWithFallback } from './figma/ImageWithFallback';
-
 export function HowItWorks() {
   const steps = [
     {
       number: "01",
-      title: "Choose Your Template",
-      description: "Start with one of our professionally designed templates or create from scratch. Our smart template library adapts to your content.",
-      image: "https://images.unsplash.com/photo-1593300806914-e1884ba37524?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsJTIwb2ZmaWNlJTIwc2V0dXB8ZW58MXx8fHwxNzU3ODU0MjY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      highlight: "300+ Templates"
+      title: "Choose Template",
+      description: "Start with a professional template or create from scratch.",
+      icon: (
+        <svg className="w-12 h-12 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+        </svg>
+      )
     },
     {
       number: "02", 
       title: "Design & Collaborate",
-      description: "Use our intuitive drag-and-drop editor to bring your story to life. Invite team members to collaborate in real-time.",
-      image: "https://images.unsplash.com/photo-1700561570982-5f845601c505?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMHRlYW0lMjBjb2xsYWJvcmF0aW9ufGVufDF8fHx8MTc1Nzg0OTQxMHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      highlight: "Real-time Editing"
+      description: "Use our drag-and-drop editor and work with your team in real-time.",
+      icon: (
+        <svg className="w-12 h-12 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+        </svg>
+      )
     },
     {
       number: "03",
-      title: "Share & Present",
-      description: "Share your presentation with a simple link or download in multiple formats. Track engagement with detailed analytics.",
-      image: "https://images.unsplash.com/photo-1705909773420-8d7af2a343f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3b3Jrc3BhY2UlMjBkZXNpZ258ZW58MXx8fHwxNzU3ODMxMTQ1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      highlight: "One-click Sharing"
+      title: "Share",
+      description: "Share your presentation with a simple link and track engagement.",
+      icon: (
+        <svg className="w-12 h-12 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z"/>
+        </svg>
+      )
     }
   ];
 
@@ -33,75 +40,45 @@ export function HowItWorks() {
             How it works
           </h2>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Create stunning presentations in three simple steps. 
-            No design experience needed.
+            Three simple steps to create and share your presentation.
           </p>
         </div>
 
-        <div className="space-y-24">
+        <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {steps.map((step, index) => (
             <div 
               key={index}
-              className={`grid lg:grid-cols-2 gap-12 items-center ${
-                index % 2 === 1 ? 'lg:flex-row-reverse' : ''
-              }`}
+              className="text-center group hover:-translate-y-2 transition-all duration-300"
             >
-              {/* Content */}
-              <div className={`space-y-6 ${index % 2 === 1 ? 'lg:order-2' : ''}`}>
-                <div className="flex items-center gap-4">
-                  <div className="w-16 h-16 bg-teal-600 text-white rounded-xl flex items-center justify-center text-xl transition-all duration-300 hover:scale-110">
-                    {step.number}
-                  </div>
-                  <div className="inline-flex items-center px-3 py-1 bg-teal-100 text-teal-700 rounded-full text-sm">
-                    {step.highlight}
-                  </div>
-                </div>
-                
-                <h3 className="text-3xl text-slate-900">
-                  {step.title}
-                </h3>
-                
-                <p className="text-lg text-slate-600 leading-relaxed">
-                  {step.description}
-                </p>
-
-                {/* Progress connector for non-last items */}
-                {index < steps.length - 1 && (
-                  <div className="hidden lg:block mt-12">
-                    <div className="flex items-center">
-                      <div className="w-4 h-4 bg-teal-200 rounded-full"></div>
-                      <div className="flex-1 h-px bg-gradient-to-r from-teal-200 to-transparent ml-4"></div>
-                    </div>
-                  </div>
-                )}
+              {/* Icon */}
+              <div className="w-20 h-20 bg-teal-50 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-teal-100 group-hover:scale-110 transition-all duration-300">
+                {step.icon}
               </div>
-
-              {/* Image */}
-              <div className={`relative ${index % 2 === 1 ? 'lg:order-1' : ''}`}>
-                <div className="relative z-10 group">
-                  <div className="rounded-2xl overflow-hidden shadow-xl group-hover:shadow-2xl transition-all duration-500">
-                    <ImageWithFallback 
-                      src={step.image}
-                      alt={step.title}
-                      className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-700"
-                    />
-                  </div>
-                  
-                  {/* Decorative elements */}
-                  <div className="absolute -z-10 top-8 left-8 w-full h-full bg-teal-100 rounded-2xl opacity-50"></div>
-                </div>
-
-                {/* Floating step indicator */}
-                <div className="absolute top-6 right-6 bg-white rounded-full w-12 h-12 flex items-center justify-center shadow-lg">
-                  <span className="text-teal-600 text-sm">{step.number}</span>
-                </div>
+              
+              {/* Step number */}
+              <div className="w-8 h-8 bg-teal-600 text-white rounded-full flex items-center justify-center text-sm mx-auto mb-4">
+                {step.number}
               </div>
+              
+              <h3 className="text-xl text-slate-900 mb-3">
+                {step.title}
+              </h3>
+              
+              <p className="text-slate-600">
+                {step.description}
+              </p>
+
+              {/* Arrow connector for non-last items */}
+              {index < steps.length - 1 && (
+                <div className="hidden md:block absolute top-10 right-0 transform translate-x-1/2">
+                  <svg className="w-6 h-6 text-teal-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"/>
+                  </svg>
+                </div>
+              )}
             </div>
           ))}
         </div>
-
-        {/* Connection line for desktop */}
-        <div className="hidden lg:block absolute left-1/2 transform -translate-x-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-teal-200 to-transparent opacity-30"></div>
       </div>
     </section>
   );
