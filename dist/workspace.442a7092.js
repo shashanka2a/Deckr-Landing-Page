@@ -33440,7 +33440,7 @@ function Features() {
                 columnNumber: 9
             }, this),
             title: "Drag & Drop Editor",
-            description: "Intuitive design tools that make creating presentations effortless. No design experience required."
+            description: "Create stunning presentations with simple drag & drop."
         },
         {
             icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
@@ -33464,7 +33464,7 @@ function Features() {
                 columnNumber: 9
             }, this),
             title: "Real-time Collaboration",
-            description: "Work together seamlessly with your team. See changes instantly and leave feedback in real-time."
+            description: "Work together instantly with your team."
         },
         {
             icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
@@ -33488,55 +33488,7 @@ function Features() {
                 columnNumber: 9
             }, this),
             title: "Smart Templates",
-            description: "Choose from hundreds of professionally designed templates. Customize colors, fonts, and layouts instantly."
-        },
-        {
-            icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                className: "w-8 h-8",
-                fill: "none",
-                stroke: "currentColor",
-                viewBox: "0 0 24 24",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                    strokeLinecap: "round",
-                    strokeLinejoin: "round",
-                    strokeWidth: "2",
-                    d: "M13 10V3L4 14h7v7l9-11h-7z"
-                }, void 0, false, {
-                    fileName: "src/components/Features.tsx",
-                    lineNumber: 33,
-                    columnNumber: 11
-                }, this)
-            }, void 0, false, {
-                fileName: "src/components/Features.tsx",
-                lineNumber: 32,
-                columnNumber: 9
-            }, this),
-            title: "Lightning Fast",
-            description: "Built for speed. Create, edit, and share presentations faster than ever with our optimized platform."
-        },
-        {
-            icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                className: "w-8 h-8",
-                fill: "none",
-                stroke: "currentColor",
-                viewBox: "0 0 24 24",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                    strokeLinecap: "round",
-                    strokeLinejoin: "round",
-                    strokeWidth: "2",
-                    d: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-                }, void 0, false, {
-                    fileName: "src/components/Features.tsx",
-                    lineNumber: 42,
-                    columnNumber: 11
-                }, this)
-            }, void 0, false, {
-                fileName: "src/components/Features.tsx",
-                lineNumber: 41,
-                columnNumber: 9
-            }, this),
-            title: "Secure & Private",
-            description: "Your data is protected with enterprise-grade security. Share presentations with confidence."
+            description: "Start fast with beautiful, professional templates."
         },
         {
             icon: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
@@ -33551,16 +33503,16 @@ function Features() {
                     d: "M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z"
                 }, void 0, false, {
                     fileName: "src/components/Features.tsx",
-                    lineNumber: 51,
+                    lineNumber: 33,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "src/components/Features.tsx",
-                lineNumber: 50,
+                lineNumber: 32,
                 columnNumber: 9
             }, this),
             title: "Easy Sharing",
-            description: "Share presentations with a simple link. Control permissions and track views with detailed analytics."
+            description: "Share your presentations with a simple link."
         }
     ];
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -33574,37 +33526,37 @@ function Features() {
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                             className: "text-4xl lg:text-5xl text-slate-900 mb-6",
                             children: [
-                                "Everything you need to create",
+                                "Essential tools for",
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                                     className: "text-teal-600",
-                                    children: " amazing presentations"
+                                    children: " great presentations"
                                 }, void 0, false, {
                                     fileName: "src/components/Features.tsx",
-                                    lineNumber: 65,
+                                    lineNumber: 47,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/Features.tsx",
-                            lineNumber: 63,
+                            lineNumber: 45,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            className: "text-xl text-slate-600 max-w-3xl mx-auto",
-                            children: "Powerful features designed to help you tell your story better. From conception to presentation, we've got you covered."
+                            className: "text-xl text-slate-600 max-w-2xl mx-auto",
+                            children: "Everything you need to create, collaborate, and share your story."
                         }, void 0, false, {
                             fileName: "src/components/Features.tsx",
-                            lineNumber: 67,
+                            lineNumber: 49,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/Features.tsx",
-                    lineNumber: 62,
+                    lineNumber: 44,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "grid md:grid-cols-2 lg:grid-cols-3 gap-8",
+                    className: "grid md:grid-cols-2 gap-8 max-w-4xl mx-auto",
                     children: features.map((feature, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "group p-8 rounded-2xl border border-slate-100 hover:border-teal-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1",
                             children: [
@@ -33613,7 +33565,7 @@ function Features() {
                                     children: feature.icon
                                 }, void 0, false, {
                                     fileName: "src/components/Features.tsx",
-                                    lineNumber: 79,
+                                    lineNumber: 60,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
@@ -33621,7 +33573,7 @@ function Features() {
                                     children: feature.title
                                 }, void 0, false, {
                                     fileName: "src/components/Features.tsx",
-                                    lineNumber: 83,
+                                    lineNumber: 64,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -33629,29 +33581,29 @@ function Features() {
                                     children: feature.description
                                 }, void 0, false, {
                                     fileName: "src/components/Features.tsx",
-                                    lineNumber: 87,
+                                    lineNumber: 68,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, index, true, {
                             fileName: "src/components/Features.tsx",
-                            lineNumber: 75,
+                            lineNumber: 56,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "src/components/Features.tsx",
-                    lineNumber: 73,
+                    lineNumber: 54,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/components/Features.tsx",
-            lineNumber: 61,
+            lineNumber: 43,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "src/components/Features.tsx",
-        lineNumber: 60,
+        lineNumber: 42,
         columnNumber: 5
     }, this);
 }
