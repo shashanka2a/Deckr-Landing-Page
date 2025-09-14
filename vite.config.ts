@@ -4,7 +4,7 @@
   import path from 'path';
 
   export default defineConfig({
-    plugins: [react()],
+    plugins: [react({ jsxRuntime: 'automatic', jsxImportSource: 'react' })],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
@@ -54,10 +54,16 @@
       outDir: 'build',
     },
     server: {
+      host: true,
       port: 5000,
-      host: '0.0.0.0',
+      strictPort: true,
       hmr: {
-        port: 5000,
+        clientPort: 443,
+        protocol: 'wss'
       },
+    },
+    preview: {
+      host: true,
+      port: 5000
     },
   });
