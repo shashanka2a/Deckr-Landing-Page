@@ -10,7 +10,7 @@ Preferred communication style: Simple, everyday language.
 
 ## Frontend Architecture
 - **Framework**: React 18 with TypeScript for type safety and modern development practices
-- **Build Tool**: Vite for fast development and optimized builds with SWC for React compilation
+- **Build Tool**: Parcel for fast development and optimized builds with built-in TypeScript support
 - **Styling**: Tailwind CSS with custom design system variables and responsive design patterns
 - **Component Structure**: Modular component architecture with separate files for each major section (Navigation, Hero, Features, HowItWorks, CTAFooter)
 
@@ -41,7 +41,7 @@ Preferred communication style: Simple, everyday language.
 ## Core Framework Dependencies
 - **React & React DOM**: Core React framework for building the user interface
 - **TypeScript**: Static type checking and enhanced developer experience
-- **Vite**: Modern build tool with fast hot module replacement and optimized production builds
+- **Parcel**: Modern build tool with zero-configuration setup and optimized production builds
 
 ## UI and Styling Libraries
 - **Tailwind CSS**: Utility-first CSS framework for rapid UI development
