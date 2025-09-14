@@ -51,12 +51,10 @@
             "@types/node": "^20.10.0",
             "@types/react": "^18.3.24",
             "@types/react-dom": "^18.3.7",
-            "@vitejs/plugin-react-swc": "^3.10.2",
-            "typescript": "^5.9.2",
-            "vite": "6.3.5"
+            "typescript": "^5.9.2"
       },
       "scripts": {
-            "dev": "vite",
-            "build": "vite build"
+            "dev": "parcel index.html --port 5000 --host 0.0.0.0",
+            "build": "parcel build index.html --dist-dir build"
       }
 }
