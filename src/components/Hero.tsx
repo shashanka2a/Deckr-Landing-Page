@@ -1,3 +1,4 @@
+import React from 'react';
 import { Button } from './ui/button';
 
 export function Hero() {
@@ -42,28 +43,18 @@ export function Hero() {
             </div>
           </div>
           
-          {/* Right content - Clean presentation illustration */}
+          {/* Right content - AI Workflow Illustration */}
           <div className="relative flex items-center justify-center">
-            <div className="w-96 h-96 bg-gradient-to-br from-teal-50 to-teal-100 rounded-2xl flex items-center justify-center transform hover:scale-105 transition-transform duration-500">
-              {/* Simple presentation illustration */}
-              <div className="relative">
-                {/* Person presenting */}
-                <div className="relative z-10">
-                  <svg className="w-32 h-32 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                  </svg>
-                </div>
-                {/* Presentation screen */}
-                <div className="absolute -top-8 -right-8 w-20 h-14 bg-white rounded-lg shadow-lg border-2 border-teal-200 flex items-center justify-center">
-                  <div className="space-y-1">
-                    <div className="w-8 h-1 bg-teal-300 rounded"></div>
-                    <div className="w-6 h-1 bg-teal-200 rounded"></div>
-                    <div className="w-10 h-1 bg-teal-100 rounded"></div>
-                  </div>
-                </div>
-                {/* Pointer/cursor */}
-                <div className="absolute -bottom-2 right-2 w-3 h-3 bg-teal-500 rounded-full"></div>
-              </div>
+            <div className="relative">
+              <img 
+                src="/AI_presentation_creation_workflow_9735a82a.png" 
+                alt="AI-powered presentation creation workflow showing user typing an idea, AI transformation, and beautiful slide output"
+                className="w-full max-w-2xl h-auto rounded-2xl shadow-xl transform hover:scale-105 transition-all duration-500 hover:shadow-2xl"
+              />
+              {/* Floating elements for extra visual appeal */}
+              <div className="absolute -top-4 -left-4 w-8 h-8 bg-teal-500 rounded-full opacity-20 animate-bounce"></div>
+              <div className="absolute -bottom-4 -right-4 w-6 h-6 bg-purple-500 rounded-full opacity-30 animate-pulse"></div>
+              <div className="absolute top-1/2 -left-8 w-4 h-4 bg-blue-500 rounded-full opacity-25 animate-ping"></div>
             </div>
           </div>
         </div>
