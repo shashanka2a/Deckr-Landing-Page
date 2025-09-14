@@ -33930,7 +33930,7 @@ function CTAFooter() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "grid grid-cols-2 md:grid-cols-4 gap-8 mb-16",
+                            className: "grid grid-cols-3 gap-8 mb-16 max-w-2xl mx-auto",
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                     className: "text-center",
@@ -33987,7 +33987,7 @@ function CTAFooter() {
                                     children: [
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                             className: "text-3xl text-white mb-2",
-                                            children: "150+"
+                                            children: "99.9%"
                                         }, void 0, false, {
                                             fileName: "src/components/CTAFooter.tsx",
                                             lineNumber: 44,
@@ -33995,7 +33995,7 @@ function CTAFooter() {
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                             className: "text-sm text-slate-400",
-                                            children: "Countries"
+                                            children: "Uptime"
                                         }, void 0, false, {
                                             fileName: "src/components/CTAFooter.tsx",
                                             lineNumber: 45,
@@ -34005,31 +34005,6 @@ function CTAFooter() {
                                 }, void 0, true, {
                                     fileName: "src/components/CTAFooter.tsx",
                                     lineNumber: 43,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "text-center",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "text-3xl text-white mb-2",
-                                            children: "99.9%"
-                                        }, void 0, false, {
-                                            fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 48,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "text-sm text-slate-400",
-                                            children: "Uptime"
-                                        }, void 0, false, {
-                                            fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 49,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/CTAFooter.tsx",
-                                    lineNumber: 47,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -34073,17 +34048,17 @@ function CTAFooter() {
                                                             d: "M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"
                                                         }, void 0, false, {
                                                             fileName: "src/components/CTAFooter.tsx",
-                                                            lineNumber: 64,
+                                                            lineNumber: 60,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "src/components/CTAFooter.tsx",
-                                                        lineNumber: 63,
+                                                        lineNumber: 59,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "src/components/CTAFooter.tsx",
-                                                    lineNumber: 62,
+                                                    lineNumber: 58,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -34091,13 +34066,13 @@ function CTAFooter() {
                                                     children: "Deckr"
                                                 }, void 0, false, {
                                                     fileName: "src/components/CTAFooter.tsx",
-                                                    lineNumber: 67,
+                                                    lineNumber: 63,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 61,
+                                            lineNumber: 57,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -34105,13 +34080,13 @@ function CTAFooter() {
                                             children: "The modern way to create and share presentations that tell your story."
                                         }, void 0, false, {
                                             fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 69,
+                                            lineNumber: 65,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/CTAFooter.tsx",
-                                    lineNumber: 60,
+                                    lineNumber: 56,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34121,7 +34096,7 @@ function CTAFooter() {
                                             children: "Product"
                                         }, void 0, false, {
                                             fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 76,
+                                            lineNumber: 72,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -34134,12 +34109,12 @@ function CTAFooter() {
                                                         children: "Features"
                                                     }, void 0, false, {
                                                         fileName: "src/components/CTAFooter.tsx",
-                                                        lineNumber: 78,
+                                                        lineNumber: 74,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "src/components/CTAFooter.tsx",
-                                                    lineNumber: 78,
+                                                    lineNumber: 74,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -34149,12 +34124,12 @@ function CTAFooter() {
                                                         children: "Templates"
                                                     }, void 0, false, {
                                                         fileName: "src/components/CTAFooter.tsx",
-                                                        lineNumber: 79,
+                                                        lineNumber: 75,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "src/components/CTAFooter.tsx",
-                                                    lineNumber: 79,
+                                                    lineNumber: 75,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -34164,12 +34139,12 @@ function CTAFooter() {
                                                         children: "Integrations"
                                                     }, void 0, false, {
                                                         fileName: "src/components/CTAFooter.tsx",
-                                                        lineNumber: 80,
+                                                        lineNumber: 76,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "src/components/CTAFooter.tsx",
-                                                    lineNumber: 80,
+                                                    lineNumber: 76,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -34179,24 +34154,24 @@ function CTAFooter() {
                                                         children: "Pricing"
                                                     }, void 0, false, {
                                                         fileName: "src/components/CTAFooter.tsx",
-                                                        lineNumber: 81,
+                                                        lineNumber: 77,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "src/components/CTAFooter.tsx",
-                                                    lineNumber: 81,
+                                                    lineNumber: 77,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 77,
+                                            lineNumber: 73,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/CTAFooter.tsx",
-                                    lineNumber: 75,
+                                    lineNumber: 71,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34206,7 +34181,7 @@ function CTAFooter() {
                                             children: "Company"
                                         }, void 0, false, {
                                             fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 86,
+                                            lineNumber: 82,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -34219,12 +34194,12 @@ function CTAFooter() {
                                                         children: "About"
                                                     }, void 0, false, {
                                                         fileName: "src/components/CTAFooter.tsx",
-                                                        lineNumber: 88,
+                                                        lineNumber: 84,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "src/components/CTAFooter.tsx",
-                                                    lineNumber: 88,
+                                                    lineNumber: 84,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -34234,12 +34209,12 @@ function CTAFooter() {
                                                         children: "Blog"
                                                     }, void 0, false, {
                                                         fileName: "src/components/CTAFooter.tsx",
-                                                        lineNumber: 89,
+                                                        lineNumber: 85,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "src/components/CTAFooter.tsx",
-                                                    lineNumber: 89,
+                                                    lineNumber: 85,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -34249,12 +34224,12 @@ function CTAFooter() {
                                                         children: "Careers"
                                                     }, void 0, false, {
                                                         fileName: "src/components/CTAFooter.tsx",
-                                                        lineNumber: 90,
+                                                        lineNumber: 86,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "src/components/CTAFooter.tsx",
-                                                    lineNumber: 90,
+                                                    lineNumber: 86,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -34264,24 +34239,24 @@ function CTAFooter() {
                                                         children: "Contact"
                                                     }, void 0, false, {
                                                         fileName: "src/components/CTAFooter.tsx",
-                                                        lineNumber: 91,
+                                                        lineNumber: 87,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "src/components/CTAFooter.tsx",
-                                                    lineNumber: 91,
+                                                    lineNumber: 87,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 87,
+                                            lineNumber: 83,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/CTAFooter.tsx",
-                                    lineNumber: 85,
+                                    lineNumber: 81,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34291,7 +34266,7 @@ function CTAFooter() {
                                             children: "Support"
                                         }, void 0, false, {
                                             fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 96,
+                                            lineNumber: 92,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -34304,12 +34279,12 @@ function CTAFooter() {
                                                         children: "Help Center"
                                                     }, void 0, false, {
                                                         fileName: "src/components/CTAFooter.tsx",
-                                                        lineNumber: 98,
+                                                        lineNumber: 94,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "src/components/CTAFooter.tsx",
-                                                    lineNumber: 98,
+                                                    lineNumber: 94,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -34319,12 +34294,12 @@ function CTAFooter() {
                                                         children: "Documentation"
                                                     }, void 0, false, {
                                                         fileName: "src/components/CTAFooter.tsx",
-                                                        lineNumber: 99,
+                                                        lineNumber: 95,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "src/components/CTAFooter.tsx",
-                                                    lineNumber: 99,
+                                                    lineNumber: 95,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -34334,12 +34309,12 @@ function CTAFooter() {
                                                         children: "Community"
                                                     }, void 0, false, {
                                                         fileName: "src/components/CTAFooter.tsx",
-                                                        lineNumber: 100,
+                                                        lineNumber: 96,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "src/components/CTAFooter.tsx",
-                                                    lineNumber: 100,
+                                                    lineNumber: 96,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
@@ -34349,30 +34324,30 @@ function CTAFooter() {
                                                         children: "Status"
                                                     }, void 0, false, {
                                                         fileName: "src/components/CTAFooter.tsx",
-                                                        lineNumber: 101,
+                                                        lineNumber: 97,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "src/components/CTAFooter.tsx",
-                                                    lineNumber: 101,
+                                                    lineNumber: 97,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 97,
+                                            lineNumber: 93,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/CTAFooter.tsx",
-                                    lineNumber: 95,
+                                    lineNumber: 91,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/CTAFooter.tsx",
-                            lineNumber: 58,
+                            lineNumber: 54,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34383,7 +34358,7 @@ function CTAFooter() {
                                     children: "\xa9 2024 Deckr. All rights reserved."
                                 }, void 0, false, {
                                     fileName: "src/components/CTAFooter.tsx",
-                                    lineNumber: 107,
+                                    lineNumber: 103,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34400,17 +34375,17 @@ function CTAFooter() {
                                                     d: "M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
                                                 }, void 0, false, {
                                                     fileName: "src/components/CTAFooter.tsx",
-                                                    lineNumber: 113,
+                                                    lineNumber: 109,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/CTAFooter.tsx",
-                                                lineNumber: 112,
+                                                lineNumber: 108,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 111,
+                                            lineNumber: 107,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -34424,17 +34399,17 @@ function CTAFooter() {
                                                     d: "M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"
                                                 }, void 0, false, {
                                                     fileName: "src/components/CTAFooter.tsx",
-                                                    lineNumber: 118,
+                                                    lineNumber: 114,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/CTAFooter.tsx",
-                                                lineNumber: 117,
+                                                lineNumber: 113,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 116,
+                                            lineNumber: 112,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -34448,40 +34423,40 @@ function CTAFooter() {
                                                     d: "M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
                                                 }, void 0, false, {
                                                     fileName: "src/components/CTAFooter.tsx",
-                                                    lineNumber: 123,
+                                                    lineNumber: 119,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/CTAFooter.tsx",
-                                                lineNumber: 122,
+                                                lineNumber: 118,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 121,
+                                            lineNumber: 117,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/CTAFooter.tsx",
-                                    lineNumber: 110,
+                                    lineNumber: 106,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/CTAFooter.tsx",
-                            lineNumber: 106,
+                            lineNumber: 102,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/CTAFooter.tsx",
-                    lineNumber: 57,
+                    lineNumber: 53,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "src/components/CTAFooter.tsx",
-                lineNumber: 56,
+                lineNumber: 52,
                 columnNumber: 7
             }, this)
         ]

@@ -31,7 +31,7 @@ export function CTAFooter() {
           </div>
 
           {/* Trust indicators */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
+          <div className="grid grid-cols-3 gap-8 mb-16 max-w-2xl mx-auto">
             <div className="text-center">
               <div className="text-3xl text-white mb-2">50k+</div>
               <div className="text-sm text-slate-400">Active Users</div>
@@ -39,10 +39,6 @@ export function CTAFooter() {
             <div className="text-center">
               <div className="text-3xl text-white mb-2">1M+</div>
               <div className="text-sm text-slate-400">Presentations</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl text-white mb-2">150+</div>
-              <div className="text-sm text-slate-400">Countries</div>
             </div>
             <div className="text-center">
               <div className="text-3xl text-white mb-2">99.9%</div>
