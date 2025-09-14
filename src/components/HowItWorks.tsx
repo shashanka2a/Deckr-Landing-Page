@@ -59,7 +59,7 @@ export function HowItWorks() {
   ];
 
   return (
-    <section className="py-24 bg-slate-50">
+    <section className="py-24 bg-slate-50 mt-16">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl text-slate-900 mb-6">

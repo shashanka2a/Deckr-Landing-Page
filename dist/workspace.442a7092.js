@@ -33666,92 +33666,132 @@ function Features() {
         }
     ];
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        className: "py-24 bg-white",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "container mx-auto px-6",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "text-center mb-16",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                            className: "text-4xl lg:text-5xl text-slate-900 mb-6",
-                            children: [
-                                "Essential tools for",
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "text-teal-600",
-                                    children: " great presentations"
-                                }, void 0, false, {
-                                    fileName: "src/components/Features.tsx",
-                                    lineNumber: 72,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/Features.tsx",
-                            lineNumber: 70,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            className: "text-xl text-slate-600 max-w-2xl mx-auto",
-                            children: "Everything you need to create, collaborate, and share your story."
-                        }, void 0, false, {
-                            fileName: "src/components/Features.tsx",
-                            lineNumber: 74,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/Features.tsx",
-                    lineNumber: 69,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "grid md:grid-cols-2 gap-8 max-w-4xl mx-auto",
-                    children: features.map((feature, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "group p-8 rounded-2xl border border-slate-100 hover:border-teal-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "w-16 h-16 bg-teal-50 rounded-xl flex items-center justify-center text-teal-600 mb-6 group-hover:bg-teal-100 group-hover:scale-110 transition-all duration-300",
-                                    children: feature.icon
-                                }, void 0, false, {
-                                    fileName: "src/components/Features.tsx",
-                                    lineNumber: 85,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                    className: "text-xl text-slate-900 mb-4 group-hover:text-teal-700 transition-colors duration-300",
-                                    children: feature.title
-                                }, void 0, false, {
-                                    fileName: "src/components/Features.tsx",
-                                    lineNumber: 89,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    className: "text-slate-600 leading-relaxed",
-                                    children: feature.description
-                                }, void 0, false, {
-                                    fileName: "src/components/Features.tsx",
-                                    lineNumber: 93,
-                                    columnNumber: 15
-                                }, this)
-                            ]
-                        }, index, true, {
-                            fileName: "src/components/Features.tsx",
-                            lineNumber: 81,
-                            columnNumber: 13
-                        }, this))
-                }, void 0, false, {
-                    fileName: "src/components/Features.tsx",
-                    lineNumber: 79,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/Features.tsx",
-            lineNumber: 68,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
+        className: "py-24 bg-white relative overflow-hidden",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "absolute inset-0",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "absolute top-20 left-10 w-32 h-32 bg-gradient-to-br from-teal-50 to-transparent rounded-full opacity-60"
+                    }, void 0, false, {
+                        fileName: "src/components/Features.tsx",
+                        lineNumber: 70,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "absolute bottom-20 right-10 w-48 h-48 bg-gradient-to-tl from-blue-50 to-transparent rounded-full opacity-40"
+                    }, void 0, false, {
+                        fileName: "src/components/Features.tsx",
+                        lineNumber: 71,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-br from-purple-50 to-transparent opacity-20"
+                    }, void 0, false, {
+                        fileName: "src/components/Features.tsx",
+                        lineNumber: 72,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Features.tsx",
+                lineNumber: 69,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "container mx-auto px-6 relative z-10",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "text-center mb-16",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                className: "text-4xl lg:text-5xl text-slate-900 mb-4",
+                                children: [
+                                    "Essential tools for",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "text-teal-600",
+                                        children: " great presentations"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Features.tsx",
+                                        lineNumber: 78,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Features.tsx",
+                                lineNumber: 76,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "text-2xl text-slate-700 mb-4 max-w-2xl mx-auto font-medium",
+                                children: "Built for modern teams who value simplicity"
+                            }, void 0, false, {
+                                fileName: "src/components/Features.tsx",
+                                lineNumber: 80,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "text-xl text-slate-600 max-w-2xl mx-auto",
+                                children: "Everything you need to create, collaborate, and share your story."
+                            }, void 0, false, {
+                                fileName: "src/components/Features.tsx",
+                                lineNumber: 83,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Features.tsx",
+                        lineNumber: 75,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "grid md:grid-cols-2 gap-8 max-w-4xl mx-auto",
+                        children: features.map((feature, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "group p-8 rounded-2xl border border-slate-100 hover:border-teal-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "w-16 h-16 bg-teal-50 rounded-xl flex items-center justify-center text-teal-600 mb-6 group-hover:bg-teal-100 group-hover:scale-110 transition-all duration-300",
+                                        children: feature.icon
+                                    }, void 0, false, {
+                                        fileName: "src/components/Features.tsx",
+                                        lineNumber: 94,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        className: "text-xl text-slate-900 mb-4 group-hover:text-teal-700 transition-colors duration-300",
+                                        children: feature.title
+                                    }, void 0, false, {
+                                        fileName: "src/components/Features.tsx",
+                                        lineNumber: 98,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "text-slate-600 leading-relaxed",
+                                        children: feature.description
+                                    }, void 0, false, {
+                                        fileName: "src/components/Features.tsx",
+                                        lineNumber: 102,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, index, true, {
+                                fileName: "src/components/Features.tsx",
+                                lineNumber: 90,
+                                columnNumber: 13
+                            }, this))
+                    }, void 0, false, {
+                        fileName: "src/components/Features.tsx",
+                        lineNumber: 88,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Features.tsx",
+                lineNumber: 74,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "src/components/Features.tsx",
         lineNumber: 67,
         columnNumber: 5
@@ -33994,7 +34034,7 @@ function HowItWorks() {
         }
     ];
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        className: "py-24 bg-slate-50",
+        className: "py-24 bg-slate-50 mt-16",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             className: "container mx-auto px-6",
             children: [
@@ -34195,7 +34235,7 @@ function CTAFooter() {
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _button.Button), {
                                     className: "bg-teal-600 hover:bg-teal-700 text-white px-10 py-4 text-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl",
-                                    children: "Start Free Trial"
+                                    children: "Get Notified"
                                 }, void 0, false, {
                                     fileName: "src/components/CTAFooter.tsx",
                                     lineNumber: 25,
@@ -34204,7 +34244,7 @@ function CTAFooter() {
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _button.Button), {
                                     variant: "outline",
                                     className: "border-slate-400 text-slate-300 hover:bg-slate-800 hover:text-white px-10 py-4 text-lg transition-all duration-300 hover:scale-105",
-                                    children: "Schedule Demo"
+                                    children: "Learn More"
                                 }, void 0, false, {
                                     fileName: "src/components/CTAFooter.tsx",
                                     lineNumber: 28,
@@ -34217,87 +34257,78 @@ function CTAFooter() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "grid grid-cols-3 gap-8 mb-16 max-w-2xl mx-auto",
+                            className: "flex justify-center mb-8",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "inline-flex items-center px-6 py-3 bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 rounded-full text-lg font-semibold shadow-lg transform hover:scale-105 transition-all duration-300",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "w-3 h-3 bg-slate-900 rounded-full mr-3 animate-pulse"
+                                    }, void 0, false, {
+                                        fileName: "src/components/CTAFooter.tsx",
+                                        lineNumber: 36,
+                                        columnNumber: 15
+                                    }, this),
+                                    "Coming Soon"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/CTAFooter.tsx",
+                                lineNumber: 35,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "src/components/CTAFooter.tsx",
+                            lineNumber: 34,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "max-w-md mx-auto mb-16",
                             children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "text-center",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "text-3xl text-white mb-2",
-                                            children: "50k+"
-                                        }, void 0, false, {
-                                            fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 36,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "text-sm text-slate-400",
-                                            children: "Active Users"
-                                        }, void 0, false, {
-                                            fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 37,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "text-slate-300 text-center mb-6",
+                                    children: "Be the first to try Deckr when we launch"
+                                }, void 0, false, {
                                     fileName: "src/components/CTAFooter.tsx",
-                                    lineNumber: 35,
+                                    lineNumber: 43,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "text-center",
+                                    className: "flex flex-col sm:flex-row gap-3",
                                     children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "text-3xl text-white mb-2",
-                                            children: "1M+"
-                                        }, void 0, false, {
-                                            fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 40,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "text-sm text-slate-400",
-                                            children: "Presentations"
-                                        }, void 0, false, {
-                                            fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 41,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/CTAFooter.tsx",
-                                    lineNumber: 39,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "text-center",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "text-3xl text-white mb-2",
-                                            children: "99.9%"
-                                        }, void 0, false, {
-                                            fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 44,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "text-sm text-slate-400",
-                                            children: "Uptime"
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                            type: "email",
+                                            placeholder: "Enter your email",
+                                            className: "flex-1 px-4 py-3 rounded-lg bg-slate-800 border border-slate-600 text-white placeholder-slate-400 focus:outline-none focus:border-teal-400 focus:ring-2 focus:ring-teal-400/20"
                                         }, void 0, false, {
                                             fileName: "src/components/CTAFooter.tsx",
                                             lineNumber: 45,
                                             columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                            className: "px-6 py-3 bg-teal-600 hover:bg-teal-700 text-white rounded-lg font-medium transition-colors duration-300 whitespace-nowrap",
+                                            children: "Join Waitlist"
+                                        }, void 0, false, {
+                                            fileName: "src/components/CTAFooter.tsx",
+                                            lineNumber: 50,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/CTAFooter.tsx",
-                                    lineNumber: 43,
+                                    lineNumber: 44,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "text-xs text-slate-400 text-center mt-3",
+                                    children: "No spam, just updates on our launch progress \u2728"
+                                }, void 0, false, {
+                                    fileName: "src/components/CTAFooter.tsx",
+                                    lineNumber: 54,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/CTAFooter.tsx",
-                            lineNumber: 34,
+                            lineNumber: 42,
                             columnNumber: 11
                         }, this)
                     ]
@@ -34332,17 +34363,17 @@ function CTAFooter() {
                                                     d: "M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"
                                                 }, void 0, false, {
                                                     fileName: "src/components/CTAFooter.tsx",
-                                                    lineNumber: 59,
+                                                    lineNumber: 67,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "src/components/CTAFooter.tsx",
-                                                lineNumber: 58,
+                                                lineNumber: 66,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 57,
+                                            lineNumber: 65,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -34350,13 +34381,13 @@ function CTAFooter() {
                                             children: "Deckr"
                                         }, void 0, false, {
                                             fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 62,
+                                            lineNumber: 70,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/CTAFooter.tsx",
-                                    lineNumber: 56,
+                                    lineNumber: 64,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34368,7 +34399,7 @@ function CTAFooter() {
                                             children: "Features"
                                         }, void 0, false, {
                                             fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 67,
+                                            lineNumber: 75,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -34377,7 +34408,7 @@ function CTAFooter() {
                                             children: "Pricing"
                                         }, void 0, false, {
                                             fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 68,
+                                            lineNumber: 76,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -34386,7 +34417,7 @@ function CTAFooter() {
                                             children: "About"
                                         }, void 0, false, {
                                             fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 69,
+                                            lineNumber: 77,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -34395,13 +34426,13 @@ function CTAFooter() {
                                             children: "Contact"
                                         }, void 0, false, {
                                             fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 70,
+                                            lineNumber: 78,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/CTAFooter.tsx",
-                                    lineNumber: 66,
+                                    lineNumber: 74,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34412,7 +34443,7 @@ function CTAFooter() {
                                             children: "Questions?"
                                         }, void 0, false, {
                                             fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 75,
+                                            lineNumber: 83,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -34421,19 +34452,19 @@ function CTAFooter() {
                                             children: "hello@deckr.com"
                                         }, void 0, false, {
                                             fileName: "src/components/CTAFooter.tsx",
-                                            lineNumber: 76,
+                                            lineNumber: 84,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/CTAFooter.tsx",
-                                    lineNumber: 74,
+                                    lineNumber: 82,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/CTAFooter.tsx",
-                            lineNumber: 54,
+                            lineNumber: 62,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -34443,23 +34474,23 @@ function CTAFooter() {
                                 children: "\xa9 2024 Deckr. All rights reserved."
                             }, void 0, false, {
                                 fileName: "src/components/CTAFooter.tsx",
-                                lineNumber: 83,
+                                lineNumber: 91,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "src/components/CTAFooter.tsx",
-                            lineNumber: 82,
+                            lineNumber: 90,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/CTAFooter.tsx",
-                    lineNumber: 53,
+                    lineNumber: 61,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "src/components/CTAFooter.tsx",
-                lineNumber: 52,
+                lineNumber: 60,
                 columnNumber: 7
             }, this)
         ]

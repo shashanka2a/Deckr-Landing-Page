@@ -64,13 +64,22 @@ export function Features() {
   ];
 
   return (
-    <section className="py-24 bg-white">
-      <div className="container mx-auto px-6">
+    <section className="py-24 bg-white relative overflow-hidden">
+      {/* Subtle background elements */}
+      <div className="absolute inset-0">
+        <div className="absolute top-20 left-10 w-32 h-32 bg-gradient-to-br from-teal-50 to-transparent rounded-full opacity-60"></div>
+        <div className="absolute bottom-20 right-10 w-48 h-48 bg-gradient-to-tl from-blue-50 to-transparent rounded-full opacity-40"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-br from-purple-50 to-transparent opacity-20"></div>
+      </div>
+      <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl text-slate-900 mb-6">
+          <h2 className="text-4xl lg:text-5xl text-slate-900 mb-4">
             Essential tools for
             <span className="text-teal-600"> great presentations</span>
           </h2>
+          <p className="text-2xl text-slate-700 mb-4 max-w-2xl mx-auto font-medium">
+            Built for modern teams who value simplicity
+          </p>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
             Everything you need to create, collaborate, and share your story.
           </p>

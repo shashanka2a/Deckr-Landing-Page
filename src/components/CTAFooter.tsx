@@ -23,27 +23,35 @@ export function CTAFooter() {
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
             <Button className="bg-teal-600 hover:bg-teal-700 text-white px-10 py-4 text-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl">
-              Start Free Trial
+              Get Notified
             </Button>
             <Button variant="outline" className="border-slate-400 text-slate-300 hover:bg-slate-800 hover:text-white px-10 py-4 text-lg transition-all duration-300 hover:scale-105">
-              Schedule Demo
+              Learn More
             </Button>
           </div>
 
-          {/* Trust indicators */}
-          <div className="grid grid-cols-3 gap-8 mb-16 max-w-2xl mx-auto">
-            <div className="text-center">
-              <div className="text-3xl text-white mb-2">50k+</div>
-              <div className="text-sm text-slate-400">Active Users</div>
+          {/* Coming Soon Badge */}
+          <div className="flex justify-center mb-8">
+            <div className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 rounded-full text-lg font-semibold shadow-lg transform hover:scale-105 transition-all duration-300">
+              <span className="w-3 h-3 bg-slate-900 rounded-full mr-3 animate-pulse"></span>
+              Coming Soon
             </div>
-            <div className="text-center">
-              <div className="text-3xl text-white mb-2">1M+</div>
-              <div className="text-sm text-slate-400">Presentations</div>
+          </div>
+
+          {/* Waitlist Signup */}
+          <div className="max-w-md mx-auto mb-16">
+            <p className="text-slate-300 text-center mb-6">Be the first to try Deckr when we launch</p>
+            <div className="flex flex-col sm:flex-row gap-3">
+              <input 
+                type="email" 
+                placeholder="Enter your email" 
+                className="flex-1 px-4 py-3 rounded-lg bg-slate-800 border border-slate-600 text-white placeholder-slate-400 focus:outline-none focus:border-teal-400 focus:ring-2 focus:ring-teal-400/20"
+              />
+              <button className="px-6 py-3 bg-teal-600 hover:bg-teal-700 text-white rounded-lg font-medium transition-colors duration-300 whitespace-nowrap">
+                Join Waitlist
+              </button>
             </div>
-            <div className="text-center">
-              <div className="text-3xl text-white mb-2">99.9%</div>
-              <div className="text-sm text-slate-400">Uptime</div>
-            </div>
+            <p className="text-xs text-slate-400 text-center mt-3">No spam, just updates on our launch progress ✨</p>
           </div>
         </div>
       </div>
