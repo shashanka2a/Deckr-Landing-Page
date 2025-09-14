@@ -33156,7 +33156,6 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Hero", ()=>Hero);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _imageWithFallback = require("./figma/ImageWithFallback");
 var _button = require("./ui/button");
 function Hero() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -33169,26 +33168,26 @@ function Hero() {
                         className: "absolute top-20 left-10 w-64 h-64 bg-teal-100 rounded-full opacity-20 blur-3xl"
                     }, void 0, false, {
                         fileName: "src/components/Hero.tsx",
-                        lineNumber: 9,
+                        lineNumber: 8,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "absolute bottom-20 right-10 w-96 h-96 bg-teal-200 rounded-full opacity-10 blur-3xl"
                     }, void 0, false, {
                         fileName: "src/components/Hero.tsx",
-                        lineNumber: 10,
+                        lineNumber: 9,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Hero.tsx",
-                lineNumber: 8,
+                lineNumber: 7,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "container mx-auto px-6 py-20 relative z-10",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "grid lg:grid-cols-2 gap-16 items-center",
+                    className: "grid lg:grid-cols-2 gap-12 items-center",
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "space-y-8 text-center lg:text-left",
@@ -33203,14 +33202,14 @@ function Hero() {
                                                     className: "w-2 h-2 bg-teal-500 rounded-full mr-2 animate-pulse"
                                                 }, void 0, false, {
                                                     fileName: "src/components/Hero.tsx",
-                                                    lineNumber: 19,
+                                                    lineNumber: 18,
                                                     columnNumber: 17
                                                 }, this),
                                                 "Design. Create. Share."
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/Hero.tsx",
-                                            lineNumber: 18,
+                                            lineNumber: 17,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
@@ -33233,24 +33232,24 @@ function Hero() {
                                                                 className: "text-teal-300"
                                                             }, void 0, false, {
                                                                 fileName: "src/components/Hero.tsx",
-                                                                lineNumber: 28,
+                                                                lineNumber: 27,
                                                                 columnNumber: 21
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "src/components/Hero.tsx",
-                                                            lineNumber: 27,
+                                                            lineNumber: 26,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "src/components/Hero.tsx",
-                                                    lineNumber: 25,
+                                                    lineNumber: 24,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/Hero.tsx",
-                                            lineNumber: 23,
+                                            lineNumber: 22,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -33258,256 +33257,141 @@ function Hero() {
                                             children: "Create stunning presentations that captivate your audience. Deckr makes it simple to design, collaborate, and share your ideas."
                                         }, void 0, false, {
                                             fileName: "src/components/Hero.tsx",
-                                            lineNumber: 33,
+                                            lineNumber: 32,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/Hero.tsx",
-                                    lineNumber: 17,
+                                    lineNumber: 16,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "flex flex-col sm:flex-row gap-4 justify-center lg:justify-start",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _button.Button), {
-                                            className: "bg-teal-600 hover:bg-teal-700 text-white px-8 py-3 text-lg transition-all duration-300 hover:scale-105 hover:shadow-xl",
-                                            children: "Start Creating"
-                                        }, void 0, false, {
-                                            fileName: "src/components/Hero.tsx",
-                                            lineNumber: 40,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _button.Button), {
-                                            variant: "outline",
-                                            className: "border-teal-200 text-teal-700 hover:bg-teal-50 px-8 py-3 text-lg transition-all duration-300 hover:scale-105",
-                                            children: "Watch Demo"
-                                        }, void 0, false, {
-                                            fileName: "src/components/Hero.tsx",
-                                            lineNumber: 43,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
+                                    className: "flex justify-center lg:justify-start",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _button.Button), {
+                                        className: "bg-teal-600 hover:bg-teal-700 text-white px-8 py-3 text-lg transition-all duration-300 hover:scale-105 hover:shadow-xl",
+                                        children: "Start Creating"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Hero.tsx",
+                                        lineNumber: 39,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
                                     fileName: "src/components/Hero.tsx",
-                                    lineNumber: 39,
+                                    lineNumber: 38,
                                     columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "flex justify-center lg:justify-start gap-8 pt-8",
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Hero.tsx",
+                            lineNumber: 15,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "relative flex items-center justify-center",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "w-96 h-96 bg-gradient-to-br from-teal-50 to-teal-100 rounded-2xl flex items-center justify-center transform hover:scale-105 transition-transform duration-500",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "relative",
                                     children: [
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "text-center",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "text-2xl text-slate-900 mb-1",
-                                                    children: "50k+"
+                                            className: "relative z-10",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                className: "w-32 h-32 text-teal-600",
+                                                fill: "currentColor",
+                                                viewBox: "0 0 24 24",
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                    d: "M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
                                                 }, void 0, false, {
                                                     fileName: "src/components/Hero.tsx",
-                                                    lineNumber: 51,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "text-sm text-slate-500",
-                                                    children: "Creators"
-                                                }, void 0, false, {
-                                                    fileName: "src/components/Hero.tsx",
-                                                    lineNumber: 52,
-                                                    columnNumber: 17
+                                                    lineNumber: 53,
+                                                    columnNumber: 21
                                                 }, this)
-                                            ]
-                                        }, void 0, true, {
+                                            }, void 0, false, {
+                                                fileName: "src/components/Hero.tsx",
+                                                lineNumber: 52,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
                                             fileName: "src/components/Hero.tsx",
-                                            lineNumber: 50,
-                                            columnNumber: 15
+                                            lineNumber: 51,
+                                            columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "text-center",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "text-2xl text-slate-900 mb-1",
-                                                    children: "1M+"
-                                                }, void 0, false, {
-                                                    fileName: "src/components/Hero.tsx",
-                                                    lineNumber: 55,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "text-sm text-slate-500",
-                                                    children: "Presentations"
-                                                }, void 0, false, {
-                                                    fileName: "src/components/Hero.tsx",
-                                                    lineNumber: 56,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
+                                            className: "absolute -top-8 -right-8 w-20 h-14 bg-white rounded-lg shadow-lg border-2 border-teal-200 flex items-center justify-center",
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                className: "space-y-1",
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        className: "w-8 h-1 bg-teal-300 rounded"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Hero.tsx",
+                                                        lineNumber: 59,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        className: "w-6 h-1 bg-teal-200 rounded"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Hero.tsx",
+                                                        lineNumber: 60,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                        className: "w-10 h-1 bg-teal-100 rounded"
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Hero.tsx",
+                                                        lineNumber: 61,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/Hero.tsx",
+                                                lineNumber: 58,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
                                             fileName: "src/components/Hero.tsx",
-                                            lineNumber: 54,
-                                            columnNumber: 15
+                                            lineNumber: 57,
+                                            columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "text-center",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "text-2xl text-slate-900 mb-1",
-                                                    children: "99%"
-                                                }, void 0, false, {
-                                                    fileName: "src/components/Hero.tsx",
-                                                    lineNumber: 59,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                    className: "text-sm text-slate-500",
-                                                    children: "Satisfaction"
-                                                }, void 0, false, {
-                                                    fileName: "src/components/Hero.tsx",
-                                                    lineNumber: 60,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
+                                            className: "absolute -bottom-2 right-2 w-3 h-3 bg-teal-500 rounded-full"
+                                        }, void 0, false, {
                                             fileName: "src/components/Hero.tsx",
-                                            lineNumber: 58,
-                                            columnNumber: 15
+                                            lineNumber: 65,
+                                            columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/Hero.tsx",
                                     lineNumber: 49,
-                                    columnNumber: 13
+                                    columnNumber: 15
                                 }, this)
-                            ]
-                        }, void 0, true, {
+                            }, void 0, false, {
+                                fileName: "src/components/Hero.tsx",
+                                lineNumber: 47,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
                             fileName: "src/components/Hero.tsx",
-                            lineNumber: 16,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "relative",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "relative z-10 transform hover:scale-105 transition-transform duration-700",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "rounded-2xl overflow-hidden shadow-2xl",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _imageWithFallback.ImageWithFallback), {
-                                            src: "https://images.unsplash.com/photo-1705909773420-8d7af2a343f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3b3Jrc3BhY2UlMjBkZXNpZ258ZW58MXx8fHwxNzU3ODMxMTQ1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-                                            alt: "Modern workspace design",
-                                            className: "w-full h-96 lg:h-[500px] object-cover"
-                                        }, void 0, false, {
-                                            fileName: "src/components/Hero.tsx",
-                                            lineNumber: 69,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "src/components/Hero.tsx",
-                                        lineNumber: 68,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/Hero.tsx",
-                                    lineNumber: 67,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "absolute -top-6 -left-6 bg-white rounded-xl p-4 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "flex items-center gap-3",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "w-3 h-3 bg-green-500 rounded-full"
-                                            }, void 0, false, {
-                                                fileName: "src/components/Hero.tsx",
-                                                lineNumber: 80,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "text-sm text-slate-600",
-                                                children: "Live collaboration"
-                                            }, void 0, false, {
-                                                fileName: "src/components/Hero.tsx",
-                                                lineNumber: 81,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/Hero.tsx",
-                                        lineNumber: 79,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/Hero.tsx",
-                                    lineNumber: 78,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "absolute -bottom-6 -right-6 bg-white rounded-xl p-4 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "flex items-center gap-3",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                                className: "w-8 h-8 bg-teal-100 rounded-lg flex items-center justify-center",
-                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                                                    className: "w-4 h-4 text-teal-600",
-                                                    fill: "currentColor",
-                                                    viewBox: "0 0 20 20",
-                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                                        d: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                                                    }, void 0, false, {
-                                                        fileName: "src/components/Hero.tsx",
-                                                        lineNumber: 89,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "src/components/Hero.tsx",
-                                                    lineNumber: 88,
-                                                    columnNumber: 19
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "src/components/Hero.tsx",
-                                                lineNumber: 87,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                className: "text-sm text-slate-600",
-                                                children: "Auto-save"
-                                            }, void 0, false, {
-                                                fileName: "src/components/Hero.tsx",
-                                                lineNumber: 92,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/Hero.tsx",
-                                        lineNumber: 86,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/Hero.tsx",
-                                    lineNumber: 85,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/Hero.tsx",
-                            lineNumber: 66,
+                            lineNumber: 46,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/Hero.tsx",
-                    lineNumber: 14,
+                    lineNumber: 13,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "src/components/Hero.tsx",
-                lineNumber: 13,
+                lineNumber: 12,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/components/Hero.tsx",
-        lineNumber: 6,
+        lineNumber: 5,
         columnNumber: 5
     }, this);
 }
@@ -33520,77 +33404,7 @@ $RefreshReg$(_c, "Hero");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","./figma/ImageWithFallback":"kONEg","./ui/button":"d3GZa","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"kONEg":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$db0a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$db0a.init();
-var prevRefreshReg = globalThis.$RefreshReg$;
-var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$db0a.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "ImageWithFallback", ()=>ImageWithFallback);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _s = $RefreshSig$();
-const ERROR_IMG_SRC = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODgiIGhlaWdodD0iODgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBvcGFjaXR5PSIuMyIgZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIzLjciPjxyZWN0IHg9IjE2IiB5PSIxNiIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iNiIvPjxwYXRoIGQ9Im0xNiA1OCAxNi0xOCAzMiAzMiIvPjxjaXJjbGUgY3g9IjUzIiBjeT0iMzUiIHI9IjciLz48L3N2Zz4KCg==';
-function ImageWithFallback(props) {
-    _s();
-    const [didError, setDidError] = (0, _react.useState)(false);
-    const handleError = ()=>{
-        setDidError(true);
-    };
-    const { src, alt, style, className, ...rest } = props;
-    return didError ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: `inline-block bg-gray-100 text-center align-middle ${className ?? ''}`,
-        style: style,
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "flex items-center justify-center w-full h-full",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                src: ERROR_IMG_SRC,
-                alt: "Error loading image",
-                ...rest,
-                "data-original-url": src
-            }, void 0, false, {
-                fileName: "src/components/figma/ImageWithFallback.tsx",
-                lineNumber: 21,
-                columnNumber: 9
-            }, this)
-        }, void 0, false, {
-            fileName: "src/components/figma/ImageWithFallback.tsx",
-            lineNumber: 20,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "src/components/figma/ImageWithFallback.tsx",
-        lineNumber: 16,
-        columnNumber: 5
-    }, this) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-        src: src,
-        alt: alt,
-        className: className,
-        style: style,
-        ...rest,
-        onError: handleError
-    }, void 0, false, {
-        fileName: "src/components/figma/ImageWithFallback.tsx",
-        lineNumber: 25,
-        columnNumber: 5
-    }, this);
-}
-_s(ImageWithFallback, "QMNzFKr35q4hEDRZ59yrU4N+ufk=");
-_c = ImageWithFallback;
-var _c;
-$RefreshReg$(_c, "ImageWithFallback");
-
-  $parcel$ReactRefreshHelpers$db0a.postlude(module);
-} finally {
-  globalThis.$RefreshReg$ = prevRefreshReg;
-  globalThis.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"eHZoI":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","./ui/button":"d3GZa","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"eHZoI":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$781c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$781c.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -34097,7 +33911,77 @@ $RefreshReg$(_c, "HowItWorks");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","./figma/ImageWithFallback":"kONEg","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"7zq97":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","./figma/ImageWithFallback":"kONEg","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"kONEg":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$db0a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$db0a.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$db0a.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ImageWithFallback", ()=>ImageWithFallback);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _s = $RefreshSig$();
+const ERROR_IMG_SRC = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODgiIGhlaWdodD0iODgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBvcGFjaXR5PSIuMyIgZmlsbD0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIzLjciPjxyZWN0IHg9IjE2IiB5PSIxNiIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iNiIvPjxwYXRoIGQ9Im0xNiA1OCAxNi0xOCAzMiAzMiIvPjxjaXJjbGUgY3g9IjUzIiBjeT0iMzUiIHI9IjciLz48L3N2Zz4KCg==';
+function ImageWithFallback(props) {
+    _s();
+    const [didError, setDidError] = (0, _react.useState)(false);
+    const handleError = ()=>{
+        setDidError(true);
+    };
+    const { src, alt, style, className, ...rest } = props;
+    return didError ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: `inline-block bg-gray-100 text-center align-middle ${className ?? ''}`,
+        style: style,
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "flex items-center justify-center w-full h-full",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                src: ERROR_IMG_SRC,
+                alt: "Error loading image",
+                ...rest,
+                "data-original-url": src
+            }, void 0, false, {
+                fileName: "src/components/figma/ImageWithFallback.tsx",
+                lineNumber: 21,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "src/components/figma/ImageWithFallback.tsx",
+            lineNumber: 20,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "src/components/figma/ImageWithFallback.tsx",
+        lineNumber: 16,
+        columnNumber: 5
+    }, this) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+        src: src,
+        alt: alt,
+        className: className,
+        style: style,
+        ...rest,
+        onError: handleError
+    }, void 0, false, {
+        fileName: "src/components/figma/ImageWithFallback.tsx",
+        lineNumber: 25,
+        columnNumber: 5
+    }, this);
+}
+_s(ImageWithFallback, "QMNzFKr35q4hEDRZ59yrU4N+ufk=");
+_c = ImageWithFallback;
+var _c;
+$RefreshReg$(_c, "ImageWithFallback");
+
+  $parcel$ReactRefreshHelpers$db0a.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"7zq97":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$34d7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$34d7.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
