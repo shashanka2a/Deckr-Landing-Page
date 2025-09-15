@@ -20,17 +20,15 @@ export function Navigation() {
           <div className="hidden md:flex items-center gap-8">
             <a href="#features" className="text-slate-600 hover:text-teal-600 transition-colors">Features</a>
             <a href="#how-it-works" className="text-slate-600 hover:text-teal-600 transition-colors">How it works</a>
-            <a href="#templates" className="text-slate-600 hover:text-teal-600 transition-colors">Templates</a>
-            <a href="#pricing" className="text-slate-600 hover:text-teal-600 transition-colors">Pricing</a>
+            <a href="#waitlist" className="text-slate-600 hover:text-teal-600 transition-colors">Join Waitlist</a>
           </div>
 
-          {/* CTA Buttons */}
-          <div className="flex items-center gap-4">
-            <Button variant="ghost" className="hidden sm:inline-flex text-slate-600 hover:text-slate-900">
-              Sign in
-            </Button>
-            <Button className="bg-teal-600 hover:bg-teal-700 text-white">
-              Get Started
+          {/* Mobile menu button - simplified for now */}
+          <div className="md:hidden">
+            <Button variant="ghost" size="sm">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
             </Button>
           </div>
         </div>
