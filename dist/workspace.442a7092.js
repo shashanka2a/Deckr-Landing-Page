@@ -25069,41 +25069,73 @@ function Navigation() {
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "hidden md:flex items-center gap-8",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            href: "#features",
-                            className: "text-slate-600 hover:text-teal-600 transition-colors",
-                            children: "Features"
-                        }, void 0, false, {
-                            fileName: "src/components/Navigation.tsx",
-                            lineNumber: 21,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#features",
+                                className: "text-slate-600 hover:text-teal-600 transition-colors",
+                                children: "Features"
+                            }, void 0, false, {
+                                fileName: "src/components/Navigation.tsx",
+                                lineNumber: 21,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#how-it-works",
+                                className: "text-slate-600 hover:text-teal-600 transition-colors",
+                                children: "How it works"
+                            }, void 0, false, {
+                                fileName: "src/components/Navigation.tsx",
+                                lineNumber: 22,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#templates",
+                                className: "text-slate-600 hover:text-teal-600 transition-colors",
+                                children: "Templates"
+                            }, void 0, false, {
+                                fileName: "src/components/Navigation.tsx",
+                                lineNumber: 23,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                href: "#pricing",
+                                className: "text-slate-600 hover:text-teal-600 transition-colors",
+                                children: "Pricing"
+                            }, void 0, false, {
+                                fileName: "src/components/Navigation.tsx",
+                                lineNumber: 24,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "src/components/Navigation.tsx",
                         lineNumber: 20,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "flex items-center",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _button.Button), {
-                            className: "bg-teal-600 hover:bg-teal-700 text-white",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "#waitlist",
-                                className: "text-white no-underline",
-                                children: "Join Waitlist"
+                        className: "flex items-center gap-4",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _button.Button), {
+                                variant: "ghost",
+                                className: "hidden sm:inline-flex text-slate-600 hover:text-slate-900",
+                                children: "Sign in"
                             }, void 0, false, {
                                 fileName: "src/components/Navigation.tsx",
-                                lineNumber: 27,
-                                columnNumber: 15
+                                lineNumber: 29,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _button.Button), {
+                                className: "bg-teal-600 hover:bg-teal-700 text-white",
+                                children: "Get Started"
+                            }, void 0, false, {
+                                fileName: "src/components/Navigation.tsx",
+                                lineNumber: 32,
+                                columnNumber: 13
                             }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/Navigation.tsx",
-                            lineNumber: 26,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
+                        ]
+                    }, void 0, true, {
                         fileName: "src/components/Navigation.tsx",
-                        lineNumber: 25,
+                        lineNumber: 28,
                         columnNumber: 11
                     }, this)
                 ]
