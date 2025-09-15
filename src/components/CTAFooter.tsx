@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from './ui/button';
+import { Twitter, Linkedin } from 'lucide-react';
 
 export function CTAFooter() {
   return (
@@ -22,15 +23,6 @@ export function CTAFooter() {
             Start creating today—no credit card required.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
-            <Button className="bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-700 hover:to-teal-800 text-white px-10 py-4 text-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl shadow-lg">
-              Get Notified
-            </Button>
-            <Button variant="outline" className="border-slate-400 text-slate-300 hover:bg-gradient-to-r hover:from-slate-700 hover:to-slate-800 hover:text-white hover:border-slate-300 px-10 py-4 text-lg transition-all duration-300 hover:scale-105 hover:shadow-xl">
-              Learn More
-            </Button>
-          </div>
-
           {/* Coming Soon Badge */}
           <div className="flex justify-center mb-8">
             <div className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 rounded-full text-lg font-semibold shadow-lg transform hover:scale-105 transition-all duration-300">
@@ -39,20 +31,36 @@ export function CTAFooter() {
             </div>
           </div>
 
-          {/* Waitlist Signup */}
-          <div className="max-w-md mx-auto mb-16">
-            <p className="text-slate-300 text-center mb-6">Be the first to try Deckr when we launch</p>
-            <div className="flex flex-col sm:flex-row gap-3">
-              <input 
-                type="email" 
-                placeholder="Enter your email" 
-                className="flex-1 px-4 py-3 rounded-lg bg-slate-800 border border-slate-600 text-white placeholder-slate-400 focus:outline-none focus:border-teal-400 focus:ring-2 focus:ring-teal-400/20"
-              />
-              <button className="px-6 py-3 bg-teal-600 hover:bg-teal-700 text-white rounded-lg font-medium transition-colors duration-300 whitespace-nowrap">
-                Join Waitlist
-              </button>
-            </div>
-            <p className="text-xs text-slate-400 text-center mt-3">No spam, just updates on our launch progress ✨</p>
+          {/* Primary Waitlist Signup */}
+          <div id="waitlist" className="max-w-lg mx-auto mb-12">
+            <p className="text-slate-300 text-center text-lg mb-6">Be the first to experience Deckr</p>
+            <form onSubmit={(e) => { e.preventDefault(); /* TODO: Handle form submission */ }} className="space-y-4">
+              <div className="flex flex-col sm:flex-row gap-4">
+                <label htmlFor="waitlist-email" className="sr-only">Email address for waitlist</label>
+                <input 
+                  id="waitlist-email"
+                  type="email" 
+                  required
+                  placeholder="Enter your email address" 
+                  className="flex-1 px-6 py-4 text-lg rounded-xl bg-slate-800 border border-slate-600 text-white placeholder-slate-400 focus:outline-none focus:border-teal-400 focus:ring-2 focus:ring-teal-400/20 focus:ring-offset-2 focus:ring-offset-slate-900 transition-all duration-300 invalid:border-red-500 focus:invalid:ring-red-500/20"
+                  aria-describedby="email-help"
+                />
+                <Button 
+                  type="submit"
+                  className="bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-700 hover:to-teal-800 text-white px-8 py-4 text-lg font-semibold rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl shadow-lg whitespace-nowrap focus:outline-none focus:ring-2 focus:ring-teal-400/50 focus:ring-offset-2 focus:ring-offset-slate-900"
+                >
+                  Join Waitlist
+                </Button>
+              </div>
+              <p id="email-help" className="text-sm text-slate-400 text-center">No spam, just launch updates ✨</p>
+            </form>
+          </div>
+
+          {/* Secondary CTAs */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button variant="outline" className="border-slate-400 text-slate-300 hover:bg-gradient-to-r hover:from-slate-700 hover:to-slate-800 hover:text-white hover:border-slate-300 px-8 py-3 text-base transition-all duration-300 hover:scale-105 hover:shadow-xl">
+              Learn More
+            </Button>
           </div>
         </div>
       </div>
@@ -73,18 +81,36 @@ export function CTAFooter() {
 
             {/* Essential Links */}
             <div className="flex flex-wrap justify-center gap-6 text-sm">
-              <a href="#features" className="text-slate-400 hover:text-teal-400 transition-colors">Features</a>
-              <a href="#pricing" className="text-slate-400 hover:text-teal-400 transition-colors">Pricing</a>
-              <a href="#about" className="text-slate-400 hover:text-teal-400 transition-colors">About</a>
-              <a href="#contact" className="text-slate-400 hover:text-teal-400 transition-colors">Contact</a>
+              <a href="#features" className="text-slate-400 hover:text-teal-400 transition-colors focus:outline-none focus:ring-2 focus:ring-teal-400/50 rounded px-1">Features</a>
+              <a href="#how-it-works" className="text-slate-400 hover:text-teal-400 transition-colors focus:outline-none focus:ring-2 focus:ring-teal-400/50 rounded px-1">How it Works</a>
+              <a href="#waitlist" className="text-slate-400 hover:text-teal-400 transition-colors focus:outline-none focus:ring-2 focus:ring-teal-400/50 rounded px-1">Join Waitlist</a>
+              <a href="mailto:hello@deckr.com" className="text-slate-400 hover:text-teal-400 transition-colors focus:outline-none focus:ring-2 focus:ring-teal-400/50 rounded px-1">Contact</a>
             </div>
 
-            {/* Email Contact */}
-            <div className="text-center md:text-right">
-              <p className="text-slate-400 text-sm">Questions?</p>
-              <a href="mailto:hello@deckr.com" className="text-teal-400 hover:text-teal-300 transition-colors text-sm">
-                hello@deckr.com
-              </a>
+            {/* Social Links & Contact */}
+            <div className="text-center md:text-right space-y-3">
+              <div className="flex justify-center md:justify-end gap-3">
+                <a 
+                  href="https://twitter.com/deckrapp" 
+                  aria-label="Follow Deckr on Twitter"
+                  className="p-2 text-slate-400 hover:text-teal-400 hover:bg-slate-700 rounded-lg transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-teal-400/50"
+                >
+                  <Twitter size={18} />
+                </a>
+                <a 
+                  href="https://linkedin.com/company/deckr" 
+                  aria-label="Follow Deckr on LinkedIn"
+                  className="p-2 text-slate-400 hover:text-teal-400 hover:bg-slate-700 rounded-lg transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-teal-400/50"
+                >
+                  <Linkedin size={18} />
+                </a>
+              </div>
+              <div>
+                <p className="text-slate-400 text-sm">Questions?</p>
+                <a href="mailto:hello@deckr.com" className="text-teal-400 hover:text-teal-300 transition-colors text-sm">
+                  hello@deckr.com
+                </a>
+              </div>
             </div>
           </div>
 

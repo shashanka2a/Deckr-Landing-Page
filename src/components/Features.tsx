@@ -26,7 +26,7 @@ export function Features() {
   ];
 
   return (
-    <section className="py-24 bg-white relative overflow-hidden">
+    <section id="features" className="py-24 bg-white relative overflow-hidden">
       {/* Subtle background elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-32 h-32 bg-gradient-to-br from-teal-50 to-transparent rounded-full opacity-60"></div>
