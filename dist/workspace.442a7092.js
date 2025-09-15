@@ -33159,8 +33159,6 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _button = require("./ui/button");
-var _aiPresentationCreationWorkflow9735A82APng = require("../assets/AI_presentation_creation_workflow_9735a82a.png");
-var _aiPresentationCreationWorkflow9735A82APngDefault = parcelHelpers.interopDefault(_aiPresentationCreationWorkflow9735A82APng);
 function Hero() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "relative min-h-screen flex items-center justify-center bg-gradient-to-br from-white to-slate-50 overflow-hidden",
@@ -33172,186 +33170,138 @@ function Hero() {
                         className: "absolute top-20 left-10 w-64 h-64 bg-teal-100 rounded-full opacity-20 blur-3xl"
                     }, void 0, false, {
                         fileName: "src/components/Hero.tsx",
-                        lineNumber: 10,
+                        lineNumber: 9,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "absolute bottom-20 right-10 w-96 h-96 bg-teal-200 rounded-full opacity-10 blur-3xl"
                     }, void 0, false, {
                         fileName: "src/components/Hero.tsx",
-                        lineNumber: 11,
+                        lineNumber: 10,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Hero.tsx",
-                lineNumber: 9,
+                lineNumber: 8,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 className: "container mx-auto px-6 py-20 relative z-10",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "grid lg:grid-cols-2 gap-12 items-center",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "space-y-8 text-center lg:text-left",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "space-y-6",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                            className: "inline-flex items-center px-4 py-2 bg-teal-50 text-teal-700 rounded-full text-sm transition-all duration-300 hover:bg-teal-100 hover:scale-105",
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                    className: "w-2 h-2 bg-teal-500 rounded-full mr-2 animate-pulse"
-                                                }, void 0, false, {
-                                                    fileName: "src/components/Hero.tsx",
-                                                    lineNumber: 20,
-                                                    columnNumber: 17
-                                                }, this),
-                                                "Design. Create. Share."
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "src/components/Hero.tsx",
-                                            lineNumber: 19,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                            className: "text-5xl lg:text-7xl text-slate-900 tracking-tight leading-tight",
-                                            children: [
-                                                "Tell your",
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                                    className: "block text-teal-600 relative",
-                                                    children: [
-                                                        "story.",
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                                                            className: "absolute -bottom-4 left-0 w-full h-4",
-                                                            viewBox: "0 0 200 20",
+                    className: "max-w-4xl mx-auto text-center",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "space-y-8",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "space-y-6",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "inline-flex items-center px-4 py-2 bg-teal-50 text-teal-700 rounded-full text-sm transition-all duration-300 hover:bg-teal-100 hover:scale-105",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "w-2 h-2 bg-teal-500 rounded-full mr-2 animate-pulse"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Hero.tsx",
+                                                lineNumber: 18,
+                                                columnNumber: 17
+                                            }, this),
+                                            "Design. Create. Share."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Hero.tsx",
+                                        lineNumber: 17,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                        className: "text-5xl lg:text-7xl text-slate-900 tracking-tight leading-tight",
+                                        children: [
+                                            "Tell your",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "block text-teal-600 relative",
+                                                children: [
+                                                    "story.",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                        className: "absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-full h-4 max-w-xs",
+                                                        viewBox: "0 0 200 20",
+                                                        fill: "none",
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                            d: "M5 15C50 5 150 5 195 15",
+                                                            stroke: "currentColor",
+                                                            strokeWidth: "3",
                                                             fill: "none",
-                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                                                d: "M5 15C50 5 150 5 195 15",
-                                                                stroke: "currentColor",
-                                                                strokeWidth: "3",
-                                                                fill: "none",
-                                                                className: "text-teal-300"
-                                                            }, void 0, false, {
-                                                                fileName: "src/components/Hero.tsx",
-                                                                lineNumber: 29,
-                                                                columnNumber: 21
-                                                            }, this)
+                                                            className: "text-teal-300"
                                                         }, void 0, false, {
                                                             fileName: "src/components/Hero.tsx",
-                                                            lineNumber: 28,
-                                                            columnNumber: 19
+                                                            lineNumber: 27,
+                                                            columnNumber: 21
                                                         }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "src/components/Hero.tsx",
-                                                    lineNumber: 26,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "src/components/Hero.tsx",
-                                            lineNumber: 24,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                            className: "text-xl text-slate-600 max-w-lg leading-relaxed",
-                                            children: "Create stunning presentations that captivate your audience. Deckr makes it simple to design, collaborate, and share your ideas."
-                                        }, void 0, false, {
-                                            fileName: "src/components/Hero.tsx",
-                                            lineNumber: 34,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/components/Hero.tsx",
-                                    lineNumber: 18,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "flex justify-center lg:justify-start",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _button.Button), {
-                                        className: "bg-teal-600 hover:bg-teal-700 text-white px-8 py-3 text-lg transition-all duration-300 hover:scale-105 hover:shadow-xl",
-                                        children: "Start Creating"
-                                    }, void 0, false, {
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Hero.tsx",
+                                                        lineNumber: 26,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/Hero.tsx",
+                                                lineNumber: 24,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "src/components/Hero.tsx",
-                                        lineNumber: 41,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "src/components/Hero.tsx",
-                                    lineNumber: 40,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/Hero.tsx",
-                            lineNumber: 17,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "relative flex items-center justify-center",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "relative",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                        src: (0, _aiPresentationCreationWorkflow9735A82APngDefault.default),
-                                        alt: "AI-powered presentation creation workflow showing user typing an idea, AI transformation, and beautiful slide output",
-                                        className: "w-full max-w-2xl h-auto rounded-2xl shadow-xl transform hover:scale-105 transition-all duration-500 hover:shadow-2xl"
-                                    }, void 0, false, {
-                                        fileName: "src/components/Hero.tsx",
-                                        lineNumber: 50,
+                                        lineNumber: 22,
                                         columnNumber: 15
                                     }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "absolute -top-4 -left-4 w-8 h-8 bg-teal-500 rounded-full opacity-20 animate-bounce"
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed",
+                                        children: "Create stunning presentations that captivate your audience. Deckr makes it simple to design, collaborate, and share your ideas."
                                     }, void 0, false, {
                                         fileName: "src/components/Hero.tsx",
-                                        lineNumber: 56,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "absolute -bottom-4 -right-4 w-6 h-6 bg-purple-500 rounded-full opacity-30 animate-pulse"
-                                    }, void 0, false, {
-                                        fileName: "src/components/Hero.tsx",
-                                        lineNumber: 57,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "absolute top-1/2 -left-8 w-4 h-4 bg-blue-500 rounded-full opacity-25 animate-ping"
-                                    }, void 0, false, {
-                                        fileName: "src/components/Hero.tsx",
-                                        lineNumber: 58,
+                                        lineNumber: 32,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Hero.tsx",
-                                lineNumber: 49,
+                                lineNumber: 16,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "flex justify-center",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _button.Button), {
+                                    className: "bg-teal-600 hover:bg-teal-700 text-white px-8 py-3 text-lg transition-all duration-300 hover:scale-105 hover:shadow-xl",
+                                    children: "Start Creating"
+                                }, void 0, false, {
+                                    fileName: "src/components/Hero.tsx",
+                                    lineNumber: 39,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/components/Hero.tsx",
+                                lineNumber: 38,
                                 columnNumber: 13
                             }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/Hero.tsx",
-                            lineNumber: 48,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Hero.tsx",
+                        lineNumber: 15,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
                     fileName: "src/components/Hero.tsx",
-                    lineNumber: 15,
+                    lineNumber: 14,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "src/components/Hero.tsx",
-                lineNumber: 14,
+                lineNumber: 13,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/components/Hero.tsx",
-        lineNumber: 7,
+        lineNumber: 6,
         columnNumber: 5
     }, this);
 }
@@ -33364,7 +33314,7 @@ $RefreshReg$(_c, "Hero");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./ui/button":"d3GZa","../assets/AI_presentation_creation_workflow_9735a82a.png":"20n6q","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"20n6q":[function() {},{}],"eHZoI":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./ui/button":"d3GZa","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"eHZoI":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$781c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$781c.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
