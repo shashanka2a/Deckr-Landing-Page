@@ -1,3 +1,4 @@
+import React from 'react';
 import { Button } from './ui/button';
 
 export function CTAFooter() {
@@ -22,10 +23,10 @@ export function CTAFooter() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
-            <Button className="bg-teal-600 hover:bg-teal-700 text-white px-10 py-4 text-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+            <Button className="bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-700 hover:to-teal-800 text-white px-10 py-4 text-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl shadow-lg">
               Get Notified
             </Button>
-            <Button variant="outline" className="border-slate-400 text-slate-300 hover:bg-slate-800 hover:text-white px-10 py-4 text-lg transition-all duration-300 hover:scale-105">
+            <Button variant="outline" className="border-slate-400 text-slate-300 hover:bg-gradient-to-r hover:from-slate-700 hover:to-slate-800 hover:text-white hover:border-slate-300 px-10 py-4 text-lg transition-all duration-300 hover:scale-105 hover:shadow-xl">
               Learn More
             </Button>
           </div>

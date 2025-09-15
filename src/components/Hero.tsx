@@ -36,7 +36,7 @@ export function Hero() {
             </div>
             
             <div className="flex justify-center">
-              <Button className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-3 text-lg transition-all duration-300 hover:scale-105 hover:shadow-xl">
+              <Button className="bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-700 hover:to-teal-800 text-white px-8 py-3 text-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl shadow-lg">
                 Start Creating
               </Button>
             </div>

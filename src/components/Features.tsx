@@ -1,63 +1,25 @@
+import React from 'react';
+import { MousePointer, Users, Layout, Share2 } from 'lucide-react';
+
 export function Features() {
   const features = [
     {
-      icon: (
-        <div className="relative">
-          <div className="w-12 h-8 bg-gradient-to-br from-teal-100 to-teal-200 rounded-lg relative overflow-hidden">
-            <div className="absolute top-1 left-1 w-3 h-2 bg-teal-400 rounded opacity-80"></div>
-            <div className="absolute top-1 right-1 w-2 h-2 bg-teal-300 rounded opacity-60"></div>
-            <div className="absolute bottom-1 left-1 w-4 h-1 bg-teal-500 rounded opacity-70"></div>
-          </div>
-          <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-yellow-300 rounded-full flex items-center justify-center text-xs">✋</div>
-        </div>
-      ),
+      icon: MousePointer,
       title: "Drag & Drop Editor",
       description: "Create stunning presentations with simple drag & drop."
     },
     {
-      icon: (
-        <div className="relative">
-          <div className="flex -space-x-2">
-            <div className="w-6 h-6 bg-gradient-to-br from-blue-300 to-blue-400 rounded-full border-2 border-white flex items-center justify-center text-xs">👤</div>
-            <div className="w-6 h-6 bg-gradient-to-br from-green-300 to-green-400 rounded-full border-2 border-white flex items-center justify-center text-xs">👤</div>
-            <div className="w-6 h-6 bg-gradient-to-br from-purple-300 to-purple-400 rounded-full border-2 border-white flex items-center justify-center text-xs">👤</div>
-          </div>
-          <div className="absolute -top-1 -right-1 w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
-          <div className="absolute -bottom-2 left-2 text-xs opacity-70">💬</div>
-        </div>
-      ),
-      title: "Real-time Collaboration",
+      icon: Users,
+      title: "Real-time Collaboration", 
       description: "Work together instantly with your team."
     },
     {
-      icon: (
-        <div className="relative">
-          <div className="grid grid-cols-2 gap-1 w-8 h-8">
-            <div className="bg-gradient-to-br from-pink-200 to-pink-300 rounded aspect-square flex items-center justify-center text-xs">📊</div>
-            <div className="bg-gradient-to-br from-orange-200 to-orange-300 rounded aspect-square flex items-center justify-center text-xs">🎨</div>
-            <div className="bg-gradient-to-br from-violet-200 to-violet-300 rounded aspect-square flex items-center justify-center text-xs">📈</div>
-            <div className="bg-gradient-to-br from-cyan-200 to-cyan-300 rounded aspect-square flex items-center justify-center text-xs">✨</div>
-          </div>
-          <div className="absolute -top-1 -right-1 w-3 h-3 bg-yellow-400 rounded-full flex items-center justify-center text-xs">⚡</div>
-        </div>
-      ),
+      icon: Layout,
       title: "Smart Templates",
       description: "Start fast with beautiful, professional templates."
     },
     {
-      icon: (
-        <div className="relative">
-          <div className="w-8 h-6 bg-gradient-to-r from-teal-100 to-teal-200 rounded-lg flex items-center justify-center relative">
-            <div className="w-4 h-3 bg-white rounded border border-teal-300 flex items-center justify-center text-xs">📄</div>
-          </div>
-          <div className="absolute -top-1 -right-2 flex items-center space-x-1">
-            <div className="w-1 h-1 bg-teal-400 rounded-full animate-bounce"></div>
-            <div className="w-1 h-1 bg-teal-400 rounded-full animate-bounce" style={{animationDelay: '0.1s'}}></div>
-            <div className="w-1 h-1 bg-teal-400 rounded-full animate-bounce" style={{animationDelay: '0.2s'}}></div>
-          </div>
-          <div className="absolute -bottom-1 -right-1 text-sm">🔗</div>
-        </div>
-      ),
+      icon: Share2,
       title: "Easy Sharing",
       description: "Share your presentations with a simple link."
     }
@@ -86,24 +48,27 @@ export function Features() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          {features.map((feature, index) => (
-            <div 
-              key={index}
-              className="group p-8 rounded-2xl border border-slate-100 hover:border-teal-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
-            >
-              <div className="w-16 h-16 bg-teal-50 rounded-xl flex items-center justify-center text-teal-600 mb-6 group-hover:bg-teal-100 group-hover:scale-110 transition-all duration-300">
-                {feature.icon}
+          {features.map((feature, index) => {
+            const IconComponent = feature.icon;
+            return (
+              <div 
+                key={index}
+                className="group p-8 rounded-2xl border border-slate-100 bg-gradient-to-br from-white to-slate-50/50 hover:border-teal-200 hover:shadow-xl hover:bg-gradient-to-br hover:from-teal-50/30 hover:to-white transition-all duration-300 hover:-translate-y-1"
+              >
+                <div className="w-16 h-16 bg-gradient-to-br from-teal-50 to-teal-100 rounded-xl flex items-center justify-center text-teal-600 mb-6 group-hover:from-teal-100 group-hover:to-teal-200 group-hover:scale-110 transition-all duration-300 shadow-sm group-hover:shadow-md">
+                  <IconComponent size={24} />
+                </div>
+                
+                <h3 className="text-xl text-slate-900 mb-4 group-hover:text-teal-700 transition-colors duration-300">
+                  {feature.title}
+                </h3>
+                
+                <p className="text-slate-600 leading-relaxed">
+                  {feature.description}
+                </p>
               </div>
-              
-              <h3 className="text-xl text-slate-900 mb-4 group-hover:text-teal-700 transition-colors duration-300">
-                {feature.title}
-              </h3>
-              
-              <p className="text-slate-600 leading-relaxed">
-                {feature.description}
-              </p>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
