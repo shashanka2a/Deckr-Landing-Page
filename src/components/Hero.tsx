@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from './ui/button';
+import workflowImage from '../assets/AI_presentation_creation_workflow_9735a82a.png';
 
 export function Hero() {
   return (
@@ -47,7 +48,7 @@ export function Hero() {
           <div className="relative flex items-center justify-center">
             <div className="relative">
               <img 
-                src="/AI_presentation_creation_workflow_9735a82a.png" 
+                src={workflowImage} 
                 alt="AI-powered presentation creation workflow showing user typing an idea, AI transformation, and beautiful slide output"
                 className="w-full max-w-2xl h-auto rounded-2xl shadow-xl transform hover:scale-105 transition-all duration-500 hover:shadow-2xl"
               />
