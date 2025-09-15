@@ -33162,72 +33162,146 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 function Hero() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-        className: "relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-white overflow-hidden",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "container mx-auto px-6 py-20 relative z-10",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "max-w-4xl mx-auto text-center",
+        className: "relative min-h-screen flex items-center justify-center bg-gradient-to-br from-white to-slate-50 overflow-hidden",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "absolute inset-0",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "absolute top-20 left-10 w-64 h-64 bg-teal-100 rounded-full opacity-20 blur-3xl"
+                    }, void 0, false, {
+                        fileName: "src/components/Hero.tsx",
+                        lineNumber: 9,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "absolute bottom-20 right-10 w-96 h-96 bg-teal-200 rounded-full opacity-10 blur-3xl"
+                    }, void 0, false, {
+                        fileName: "src/components/Hero.tsx",
+                        lineNumber: 10,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Hero.tsx",
+                lineNumber: 8,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "container mx-auto px-6 py-20 relative z-10",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "space-y-8",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "space-y-6",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                    className: "text-5xl lg:text-7xl text-slate-900 tracking-tight leading-tight",
-                                    children: "Tell your story."
+                    className: "max-w-4xl mx-auto text-center",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "space-y-8",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "space-y-6",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "inline-flex items-center px-4 py-2 bg-teal-50 text-teal-700 rounded-full text-sm transition-all duration-300 hover:bg-teal-100 hover:scale-105",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "w-2 h-2 bg-teal-500 rounded-full mr-2 animate-pulse"
+                                            }, void 0, false, {
+                                                fileName: "src/components/Hero.tsx",
+                                                lineNumber: 18,
+                                                columnNumber: 17
+                                            }, this),
+                                            "Design. Create. Share."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Hero.tsx",
+                                        lineNumber: 17,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                        className: "text-5xl lg:text-7xl text-slate-900 tracking-tight leading-tight",
+                                        children: [
+                                            "Tell your",
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                                className: "block text-teal-600 relative",
+                                                children: [
+                                                    "story.",
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                                                        className: "absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-full h-4 max-w-xs",
+                                                        viewBox: "0 0 200 20",
+                                                        fill: "none",
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                                            d: "M5 15C50 5 150 5 195 15",
+                                                            stroke: "currentColor",
+                                                            strokeWidth: "3",
+                                                            fill: "none",
+                                                            className: "text-teal-300"
+                                                        }, void 0, false, {
+                                                            fileName: "src/components/Hero.tsx",
+                                                            lineNumber: 27,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "src/components/Hero.tsx",
+                                                        lineNumber: 26,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/Hero.tsx",
+                                                lineNumber: 24,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Hero.tsx",
+                                        lineNumber: 22,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed",
+                                        children: "Create stunning presentations that captivate your audience. Deckr makes it simple to design, collaborate, and share your ideas."
+                                    }, void 0, false, {
+                                        fileName: "src/components/Hero.tsx",
+                                        lineNumber: 32,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Hero.tsx",
+                                lineNumber: 16,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "flex justify-center",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                    href: "#waitlist",
+                                    className: "inline-flex items-center justify-center bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-700 hover:to-teal-800 text-white px-8 py-3 text-lg font-medium rounded-md transition-all duration-300 hover:scale-105 hover:shadow-2xl shadow-lg focus:outline-none focus:ring-2 focus:ring-teal-400/50 focus:ring-offset-2 focus:ring-offset-white",
+                                    children: "Join Waitlist"
                                 }, void 0, false, {
                                     fileName: "src/components/Hero.tsx",
-                                    lineNumber: 12,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    className: "text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed",
-                                    children: "Create stunning presentations in minutes with AI-powered design tools."
-                                }, void 0, false, {
-                                    fileName: "src/components/Hero.tsx",
-                                    lineNumber: 16,
+                                    lineNumber: 39,
                                     columnNumber: 15
                                 }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/Hero.tsx",
-                            lineNumber: 11,
-                            columnNumber: 13
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "flex justify-center",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: "#waitlist",
-                                className: "inline-flex items-center justify-center bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-700 hover:to-teal-800 text-white px-8 py-3 text-lg font-medium rounded-md transition-all duration-300 hover:scale-105 hover:shadow-2xl shadow-lg focus:outline-none focus:ring-2 focus:ring-teal-400/50 focus:ring-offset-2 focus:ring-offset-white",
-                                children: "Join Waitlist"
                             }, void 0, false, {
                                 fileName: "src/components/Hero.tsx",
-                                lineNumber: 22,
-                                columnNumber: 15
+                                lineNumber: 38,
+                                columnNumber: 13
                             }, this)
-                        }, void 0, false, {
-                            fileName: "src/components/Hero.tsx",
-                            lineNumber: 21,
-                            columnNumber: 13
-                        }, this)
-                    ]
-                }, void 0, true, {
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Hero.tsx",
+                        lineNumber: 15,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
                     fileName: "src/components/Hero.tsx",
-                    lineNumber: 10,
-                    columnNumber: 11
+                    lineNumber: 14,
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "src/components/Hero.tsx",
-                lineNumber: 9,
-                columnNumber: 9
+                lineNumber: 13,
+                columnNumber: 7
             }, this)
-        }, void 0, false, {
-            fileName: "src/components/Hero.tsx",
-            lineNumber: 8,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
+        ]
+    }, void 0, true, {
         fileName: "src/components/Hero.tsx",
         lineNumber: 6,
         columnNumber: 5
