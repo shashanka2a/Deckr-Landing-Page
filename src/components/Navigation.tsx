@@ -1,3 +1,4 @@
+import React from 'react';
 import { Button } from './ui/button';
 
 export function Navigation() {
@@ -18,18 +19,12 @@ export function Navigation() {
           {/* Navigation Links */}
           <div className="hidden md:flex items-center gap-8">
             <a href="#features" className="text-slate-600 hover:text-teal-600 transition-colors">Features</a>
-            <a href="#how-it-works" className="text-slate-600 hover:text-teal-600 transition-colors">How it works</a>
-            <a href="#templates" className="text-slate-600 hover:text-teal-600 transition-colors">Templates</a>
-            <a href="#pricing" className="text-slate-600 hover:text-teal-600 transition-colors">Pricing</a>
           </div>
 
-          {/* CTA Buttons */}
-          <div className="flex items-center gap-4">
-            <Button variant="ghost" className="hidden sm:inline-flex text-slate-600 hover:text-slate-900">
-              Sign in
-            </Button>
+          {/* CTA Button */}
+          <div className="flex items-center">
             <Button className="bg-teal-600 hover:bg-teal-700 text-white">
-              Get Started
+              <a href="#waitlist" className="text-white no-underline">Join Waitlist</a>
             </Button>
           </div>
         </div>
